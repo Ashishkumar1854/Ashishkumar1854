@@ -1,16 +1,19 @@
-## Hi there 👋
+# 👋 Hi, I’m Ashish Kumar — SDE | AI + Computer Vision | MERN
 
-<!--
-**Ashishkumar1854/Ashishkumar1854** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- ⚙️ I build **real-time systems**: face-recognition attendance, voting verification, AI agents.
+- 🧪 I ship **tested code** with **docs + demos**.
+- 📫 Work with me: ashishkyadav.dev@gmail.com
+- 🔭 Current focus: **Face-ID Voting System (MERN + Flask + CV)**
 
-Here are some ideas to get you started:
+## 🔗 Featured Projects
+- Face Recognition Attendance System — OpenCV + Python + Flask (real-time attendance)
+- Voting Verification (Face-ID) — PoC for secure, faster verification
+- Medical Recommendation System — NLP + ML for symptom-based suggestions
+- Intelligent Traffic Control (ANPR/LPR) — CV-based number-plate tracking
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Tech
+`Python` `OpenCV` `LLMs` `TensorFlow` `Scikit-learn` `Node.js` `Express` `React` `MongoDB` `MySQL` `Tailwind` `Firebase`
+
+## 📈 Recent Activity
+<!-- Add badges/widgets later -->
+
