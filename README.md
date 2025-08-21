@@ -1,5 +1,11 @@
 # 👋 Hi, I’m Ashish Kumar — SDE | AI + Computer Vision | MERN
 
+---
+## 🌟 GitHub Profile Stats
+![GitHub followers](https://img.shields.io/github/followers/Ashishkumar1854?style=social)
+![GitHub stars](https://img.shields.io/github/stars/Ashishkumar1854?style=social)
+
+
 - ⚙️ I build **real-time systems**: face-recognition attendance, voting verification, AI agents.
 - 🧪 I ship **tested code** with **docs + demos**.
 - 📫 Work with me: ashishkyadav.dev@gmail.com
