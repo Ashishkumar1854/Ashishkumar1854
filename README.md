@@ -62,15 +62,16 @@
 
 ## 📈 Recent Activity
 <!-- Add badges/widgets later -->
+
 ## 🌟 GitHub Profile Stats  
 
 ![GitHub followers](https://img.shields.io/github/followers/Ashishkumar1854?style=social)
-![GitHub User's stars](https://img.shields.io/github/stars/Ashishkumar1854?affiliations=OWNER&style=social)  
+![GitHub stars](https://img.shields.io/github/stars/Ashishkumar1854?affiliations=OWNER&style=social)  
 
 ---
 
-### 📈 Contribution Streak
-![GitHub Streak](https://streak-stats.demolab.com?user=Ashishkumar1854&theme=radical&border_radius=10)
+### 🔥 Contribution Streak
+[![GitHub Streak](https://streak-stats.demolab.com?user=Ashishkumar1854&theme=radical&border_radius=10)](https://git.io/streak-stats)
 
 ---
 
@@ -81,7 +82,3 @@
 
 ### 🏆 Top Languages
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ashishkumar1854&layout=compact&theme=radical&border_radius=10)
-
----
-
-
