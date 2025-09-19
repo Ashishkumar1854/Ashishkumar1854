@@ -1,18 +1,36 @@
 # 👋 Hi, I’m Ashish Kumar — SDE | AI + Computer Vision | MERN
 
+🌟 About Me
 
-- ⚙️ I build **real-time systems**: face-recognition attendance, voting verification, AI agents.
-- 🧪 I ship **tested code** with **docs + demos**.
-- 📫 Work with me: ashishkyadav.dev@gmail.com
-- 🔭 Current focus: **Face-ID Voting System (MERN + Flask + CV)**
+Hey there! I’m Ashish Bhai 👋
+I’m a full-stack developer who loves building cool web apps with the MERN stack and adding a sprinkle of AI/ML magic to make them smarter.
 
-## 🔗 Featured Projects
-- Face Recognition Attendance System — OpenCV + Python + Flask (real-time attendance)
-- Voting Verification (Face-ID) — PoC for secure, faster verification
-- Medical Recommendation System — NLP + ML for symptom-based suggestions
-- Intelligent Traffic Control (ANPR/LPR) — CV-based number-plate tracking
+💡 A little about what I do:
+I turn ideas into interactive web applications using MongoDB, Express, React, and Node.js.
+I like exploring how AI/ML can make apps smarter and more useful.
+Hackathons are my playground—I’ve been finalist in a few, which taught me how to solve problems fast and work well in teams.
 
-## 🛠️ Tech Stack
+🚀 Right now, I’m focused on:
+Building more MERN + AI/ML projects
+Learning new tools and frameworks to stay on top of modern web development
+
+🎯 Fun fact:
+When I’m not coding, I enjoy tinkering with side projects, experimenting with new tech, and participating in coding challenges.
+Let’s connect, collaborate, and build something amazing together! 🌐
+
+🔗 Featured Projects
+
+Smart Face Voting System — Enables secure and fast voter verification using facial recognition to prevent fraud.
+[Repo/Demo](https://www.linkedin.com/posts/ashishkumar1854_electioncommissionofindia-blockchainvoting-activity-7346224352129875970-zjVA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEBIuG0Bz308RFWI08bIoMBauw9SHOptPPQ)
+
+Real-Time Stock Predictor — Predicts stock prices based on live news and market data for smarter investment decisions.
+[Repo/Demo](https://github.com/yourusername/smart-face-voting)
+
+
+AI Medical Recommendation System — Suggests medications, exercises, and lifestyle tips based on user-reported symptoms.
+[Repo/Demo](https://github.com/yourusername/smart-face-voting)
+
+🛠️ Tech Stack
 
 **Languages**  
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
