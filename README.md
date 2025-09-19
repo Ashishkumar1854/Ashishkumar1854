@@ -20,14 +20,14 @@ Let’s connect, collaborate, and build something amazing together! 🌐
 
 **🔗 Featured Projects**
 
-Smart Face Voting System — Enables secure and fast voter verification using facial recognition to prevent fraud.
+🗳️ Smart Face Voting System — Enables secure and fast voter verification using facial recognition to prevent fraud.
 [Repo/Demo](https://www.linkedin.com/posts/ashishkumar1854_electioncommissionofindia-blockchainvoting-activity-7346224352129875970-zjVA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEBIuG0Bz308RFWI08bIoMBauw9SHOptPPQ)
 
-Real-Time Stock Predictor — Predicts stock prices based on live news and market data for smarter investment decisions.
+📈 Real-Time Stock Predictor — Predicts stock prices based on live news and market data for smarter investment decisions.
 [Repo/Demo](https://github.com/yourusername/smart-face-voting)
 
 
-AI Medical Recommendation System — Suggests medications, exercises, and lifestyle tips based on user-reported symptoms.
+💊 AI Medical Recommendation System — Suggests medications, exercises, and lifestyle tips based on user-reported symptoms.
 [Repo/Demo](https://github.com/yourusername/smart-face-voting)
 
 🛠️ Tech Stack
