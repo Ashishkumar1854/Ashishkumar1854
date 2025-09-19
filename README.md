@@ -1,24 +1,24 @@
 # 👋 Hi, I’m Ashish Kumar — SDE | AI + Computer Vision | MERN
 
-🌟 About Me
+**🌟 About Me**
 
-Hey there! I’m Ashish Bhai 👋
+Hey there! I’m **Ashish Kumar 👋**
 I’m a full-stack developer who loves building cool web apps with the MERN stack and adding a sprinkle of AI/ML magic to make them smarter.
 
-💡 A little about what I do:
+**💡 A little about what I do:**
 I turn ideas into interactive web applications using MongoDB, Express, React, and Node.js.
 I like exploring how AI/ML can make apps smarter and more useful.
 Hackathons are my playground—I’ve been finalist in a few, which taught me how to solve problems fast and work well in teams.
 
-🚀 Right now, I’m focused on:
+**🚀 Right now, I’m focused on:**
 Building more MERN + AI/ML projects
 Learning new tools and frameworks to stay on top of modern web development
 
-🎯 Fun fact:
+**🎯 Fun fact:**
 When I’m not coding, I enjoy tinkering with side projects, experimenting with new tech, and participating in coding challenges.
 Let’s connect, collaborate, and build something amazing together! 🌐
 
-🔗 Featured Projects
+**🔗 Featured Projects**
 
 Smart Face Voting System — Enables secure and fast voter verification using facial recognition to prevent fraud.
 [Repo/Demo](https://www.linkedin.com/posts/ashishkumar1854_electioncommissionofindia-blockchainvoting-activity-7346224352129875970-zjVA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEBIuG0Bz308RFWI08bIoMBauw9SHOptPPQ)
