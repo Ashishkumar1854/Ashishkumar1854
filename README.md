@@ -25,17 +25,16 @@ When I’m not coding, I enjoy tinkering with side projects, experimenting with 
 Let’s connect, collaborate, and build something amazing together! 🌐
 
 ---
-
 ## 🔗 Featured Projects
 
-🗳️ **Smart Face Voting System** — Enables secure and fast voter verification using facial recognition  
-🔗 Demo: https://www.linkedin.com/posts/ashishkumar1854_electioncommissionofindia-blockchainvoting-activity-7346224352129875970-zjVA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEBIuG0Bz308RFWI08bIoMBauw9SHOptPPQ
+🗳️ **Smart Face Voting System** — Enables secure voter verification using facial recognition  
+[Repo/Demo](https://www.linkedin.com/posts/ashishkumar1854_electioncommissionofindia-blockchainvoting-activity-7346224352129875970-zjVA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEBIuG0Bz308RFWI08bIoMBauw9SHOptPPQ)
 
-📈 **Real-Time Stock Predictor** — Predicts stock prices based on live news + ML  
-🔗 Repo/Demo: *(Will update when link provided)*
+📈 **Real-Time Stock Predictor** — Predicts stock prices using live news + ML  
+[Repo/Demo](#) *(Repo link update soon)*
 
-💊 **AI Medical Recommendation System** — Medical help from symptoms using ML  
-🔗 Repo/Demo: *(Will update when link provided)*
+💊 **AI Medical Recommendation System** — Symptom-based medical suggestions using ML  
+[Repo/Demo](#) *(Repo link update soon)*
 
 ---
 
