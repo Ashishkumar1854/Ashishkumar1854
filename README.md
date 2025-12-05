@@ -1,40 +1,55 @@
 # 👋 Hi, I’m Ashish Kumar — SDE | AI + Computer Vision | MERN
 
-**🌟 About Me**
+🚀 Full-stack developer passionate about building intelligent products using MERN + AI/ML  
+⚡ Hackathon Finalist • Open Source Contributor • Problem Solver  
 
-Hey there! I’m **Ashish Kumar 👋**
+---
+
+## 🌟 About Me
+
+Hey there! I’m **Ashish Kumar 👋**  
 I’m a full-stack developer who loves building cool web apps with the MERN stack and adding a sprinkle of AI/ML magic to make them smarter.
 
 **💡 A little about what I do:**
-I turn ideas into interactive web applications using MongoDB, Express, React, and Node.js.
-I like exploring how AI/ML can make apps smarter and more useful.
-Hackathons are my playground—I’ve been finalist in a few, which taught me how to solve problems fast and work well in teams.
+- I turn ideas into interactive web applications using MongoDB, Express, React, and Node.js.
+- I like exploring how AI/ML can make apps smarter and more useful.
+- Hackathons are my playground — finalist in multiple hackathons, solving problems fast under pressure.
 
 **🚀 Right now, I’m focused on:**
-Building more MERN + AI/ML projects
-Learning new tools and frameworks to stay on top of modern web development
+✔ Building more MERN + AI/ML projects  
+✔ Learning modern tools to stay ahead in tech  
 
 **🎯 Fun fact:**
 When I’m not coding, I enjoy tinkering with side projects, experimenting with new tech, and participating in coding challenges.
+
 Let’s connect, collaborate, and build something amazing together! 🌐
 
-**🔗 Featured Projects**
+---
 
-🗳️ Smart Face Voting System — Enables secure and fast voter verification using facial recognition to prevent fraud.
-[Repo/Demo](https://www.linkedin.com/posts/ashishkumar1854_electioncommissionofindia-blockchainvoting-activity-7346224352129875970-zjVA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEBIuG0Bz308RFWI08bIoMBauw9SHOptPPQ)
+## 🔗 Featured Projects
 
-📈 Real-Time Stock Predictor — Predicts stock prices based on live news and market data for smarter investment decisions.
-[Repo/Demo](https://github.com/yourusername/smart-face-voting)
+🗳️ **Smart Face Voting System** — Enables secure and fast voter verification using facial recognition  
+🔗 Demo: https://www.linkedin.com/posts/ashishkumar1854_electioncommissionofindia-blockchainvoting-activity-7346224352129875970-zjVA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEBIuG0Bz308RFWI08bIoMBauw9SHOptPPQ
 
+📈 **Real-Time Stock Predictor** — Predicts stock prices based on live news + ML  
+🔗 Repo/Demo: *(Will update when link provided)*
 
-💊 AI Medical Recommendation System — Suggests medications, exercises, and lifestyle tips based on user-reported symptoms.
-[Repo/Demo](https://github.com/yourusername/smart-face-voting)
+💊 **AI Medical Recommendation System** — Medical help from symptoms using ML  
+🔗 Repo/Demo: *(Will update when link provided)*
 
-🚀 Open Source Contributor  
-PR: https://github.com/wtasg/meetonline/pull/316
+---
 
+## 🏆 Open Source Contributor
 
-🛠️ Tech Stack
+✔ First Contribution Live:  
+🔗 PR: https://github.com/wtasg/meetonline/pull/316  
+⏳ Status: Approved — Waiting for Final Merge
+
+✨ More contributions coming soon…
+
+---
+
+## 🛠️ Tech Stack
 
 **Languages**  
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
@@ -81,26 +96,27 @@ PR: https://github.com/wtasg/meetonline/pull/316
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
 
+---
 
-## 📈 Recent Activity
-<!-- Add badges/widgets later -->
-
-## 🌟 GitHub Profile Stats  
-
+## 🌟 GitHub Profile Stats
 ![GitHub followers](https://img.shields.io/github/followers/Ashishkumar1854?style=social)
-![GitHub stars](https://img.shields.io/github/stars/Ashishkumar1854?affiliations=OWNER&style=social)  
+![GitHub stars](https://img.shields.io/github/stars/Ashishkumar1854?affiliations=OWNER&style=social)
 
 ---
 
-### 🔥 Contribution Streak
+## 🔥 Contribution Streak
 [![GitHub Streak](https://streak-stats.demolab.com?user=Ashishkumar1854&theme=radical&border_radius=10)](https://git.io/streak-stats)
 
 ---
 
-### 📊 GitHub Analytics
+## 📊 GitHub Analytics  
 ![Ashish's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ashishkumar1854&show_icons=true&theme=radical&border_radius=10)
 
 ---
 
-### 🏆 Top Languages
+## 🏆 Top Languages  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ashishkumar1854&layout=compact&theme=radical&border_radius=10)
+
+---
+
+⭐ If you like my work — consider giving ⭐ to the repositories!
