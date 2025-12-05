@@ -30,6 +30,10 @@ Let’s connect, collaborate, and build something amazing together! 🌐
 💊 AI Medical Recommendation System — Suggests medications, exercises, and lifestyle tips based on user-reported symptoms.
 [Repo/Demo](https://github.com/yourusername/smart-face-voting)
 
+🚀 Open Source Contributor  
+PR: https://github.com/wtasg/meetonline/pull/316
+
+
 🛠️ Tech Stack
 
 **Languages**  
