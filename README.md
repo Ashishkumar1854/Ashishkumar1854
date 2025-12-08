@@ -22,14 +22,14 @@ I’m a full-stack developer who loves building cool MERN + AI powered products.
 🔗 Repo coming soon...
 
 ---
-
 ## 🏆 Open Source Contributions
 
-| Project | Contribution | Status |
-|--------|--------------|--------|
-| MeetOnline | Added custom favicon for better branding 🎯 | ⏳ Approved — Waiting for Merge |
+| Project | Contribution | Status | PR Link |
+|--------|--------------|--------|--------|
+| MeetOnline | Added multi-size favicon + branding & updated index HTML | 🟢 Merged | 🔗 https://github.com/wtasg/meetonline/pull/316 |
+![OSS Contributor](https://img.shields.io/badge/Open%20Source-Contributor-3DA639?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
 
-✨ More contributions coming soon…
+🚀 More contributions in progress…
 
 ---
 
