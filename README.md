@@ -1,6 +1,11 @@
-# 👋 Hi, I’m Ashish Kumar — SDE | AI + Computer Vision | MERN
+```md id="vhz6ax"
+<p align="center">
+  <img src="assets/banner.svg" width="100%">
+</p>
+```
 
 ## 🌟 About Me
+
 Hey there! I’m **Ashish Kumar 👋**  
 I’m a full-stack developer who loves building cool MERN + AI powered products.
 
@@ -22,11 +27,13 @@ I’m a full-stack developer who loves building cool MERN + AI powered products.
 🔗 Repo coming soon...
 
 ---
+
 ## 🏆 Open Source Contributions
 
-| Project | Contribution | Status | PR Link |
-|--------|--------------|--------|--------|
+| Project    | Contribution                                             | Status    | PR Link                                         |
+| ---------- | -------------------------------------------------------- | --------- | ----------------------------------------------- |
 | MeetOnline | Added multi-size favicon + branding & updated index HTML | 🟢 Merged | 🔗 https://github.com/wtasg/meetonline/pull/316 |
+
 ![OSS Contributor](https://img.shields.io/badge/Open%20Source-Contributor-3DA639?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
 
 🚀 More contributions in progress…
@@ -83,22 +90,26 @@ I’m a full-stack developer who loves building cool MERN + AI powered products.
 ---
 
 ## 🌟 GitHub Profile Stats
+
 ![GitHub followers](https://img.shields.io/github/followers/Ashishkumar1854?style=social)
 ![GitHub stars](https://img.shields.io/github/stars/Ashishkumar1854?affiliations=OWNER&style=social)
 
 ---
 
 ## 🔥 Contribution Streak
+
 [![GitHub Streak](https://streak-stats.demolab.com/?user=Ashishkumar1854&theme=radical&border_radius=10)](https://git.io/streak-stats)
 
 ---
 
 ## 📊 GitHub Analytics
+
 ![Ashish's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ashishkumar1854&show_icons=true&theme=radical&border_radius=10)
 
 ---
 
 ## 🏆 Top Languages
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ashishkumar1854&layout=compact&theme=radical&border_radius=10)
 
 ---

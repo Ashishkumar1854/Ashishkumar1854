@@ -1,0 +1,274 @@
+```svg
+<svg width="1600" height="500" viewBox="0 0 1600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+svg{
+  font-family:'Inter',sans-serif;
+  background:#050505;
+}
+
+/* Background glow */
+
+.bgGlow{
+  animation: pulse 6s ease-in-out infinite;
+}
+
+@keyframes pulse{
+  0%,100%{opacity:.45;}
+  50%{opacity:.85;}
+}
+
+/* Bee Floating */
+
+.bee1{
+  animation: fly1 11s infinite ease-in-out;
+}
+
+.bee2{
+  animation: fly2 13s infinite ease-in-out;
+}
+
+.bee3{
+  animation: fly3 9s infinite ease-in-out;
+}
+
+@keyframes fly1{
+  0%{transform:translate(0px,0px);}
+  25%{transform:translate(120px,-30px);}
+  50%{transform:translate(260px,20px);}
+  75%{transform:translate(420px,-15px);}
+  100%{transform:translate(620px,10px);}
+}
+
+@keyframes fly2{
+  0%{transform:translate(0px,0px);}
+  25%{transform:translate(-80px,30px);}
+  50%{transform:translate(140px,-25px);}
+  75%{transform:translate(260px,10px);}
+  100%{transform:translate(450px,-20px);}
+}
+
+@keyframes fly3{
+  0%{transform:translate(0px,0px);}
+  25%{transform:translate(100px,-20px);}
+  50%{transform:translate(220px,30px);}
+  75%{transform:translate(380px,-10px);}
+  100%{transform:translate(560px,20px);}
+}
+
+/* Wings */
+
+.wing{
+  transform-origin:center;
+  animation: flap .18s infinite alternate;
+}
+
+@keyframes flap{
+  from{transform:rotate(0deg);}
+  to{transform:rotate(18deg);}
+}
+
+/* Floating particles */
+
+.particle{
+  animation: float 6s infinite ease-in-out;
+}
+
+@keyframes float{
+  0%,100%{transform:translateY(0px);}
+  50%{transform:translateY(-10px);}
+}
+
+</style>
+
+<!-- Background -->
+
+<rect width="1600" height="500" rx="24" fill="#050505"/>
+
+<!-- Glow -->
+
+<circle class="bgGlow" cx="180" cy="420" r="180" fill="#FFD600" opacity="0.18"/>
+<circle class="bgGlow" cx="1450" cy="80" r="120" fill="#FFD600" opacity="0.10"/>
+
+<!-- Hexagons -->
+
+<g opacity="0.08" stroke="#FFD600" stroke-width="2">
+
+<polygon points="90,130 120,110 150,130 150,165 120,185 90,165"/>
+<polygon points="150,165 180,145 210,165 210,200 180,220 150,200"/>
+<polygon points="90,200 120,180 150,200 150,235 120,255 90,235"/>
+
+</g>
+
+<!-- Peacock Feathers -->
+
+<g opacity="0.18">
+
+<path d="M1480 390 C1510 330 1560 330 1580 390"
+stroke="#00B8A9"
+stroke-width="4"
+fill="none"/>
+
+<circle cx="1530" cy="360" r="18" fill="#00B8A9"/>
+<circle cx="1530" cy="360" r="8" fill="#001D3D"/>
+<circle cx="1530" cy="360" r="3" fill="#FFD600"/>
+
+</g>
+
+<!-- Decorative Lines -->
+
+<rect y="410" width="1600" height="12" fill="#FFD600"/>
+<rect y="450" width="1600" height="5" fill="#FFD600" opacity="0.9"/>
+
+<!-- Main Title -->
+
+<text x="90" y="190"
+font-size="78"
+font-weight="800"
+fill="white">
+Ashish
+</text>
+
+<text x="420" y="190"
+font-size="78"
+font-weight="800"
+fill="#FFD600">
+Kumar
+</text>
+
+<!-- Subtitle -->
+
+<text x="95" y="255"
+font-size="28"
+font-weight="500"
+fill="#D0D0D0"
+letter-spacing="3">
+AI AGENTS • AUTOMATION • BACKEND SYSTEMS
+</text>
+
+<!-- Right Heading -->
+
+<text x="820" y="170"
+font-size="54"
+font-weight="800"
+fill="white">
+Building
+</text>
+
+<text x="820" y="235"
+font-size="54"
+font-weight="800"
+fill="#FFD600">
+Autonomous AI
+</text>
+
+<text x="820" y="300"
+font-size="54"
+font-weight="800"
+fill="white">
+Automation Systems
+</text>
+
+<!-- Supporting Text -->
+
+<text x="825" y="360"
+font-size="26"
+font-weight="400"
+fill="#B8B8B8">
+Docker • VPS • Nginx • PostgreSQL • n8n
+</text>
+
+<!-- Flight Paths -->
+
+<path d="M240 120 C400 40, 550 200, 740 120"
+stroke="#FFD600"
+stroke-width="2"
+stroke-dasharray="8 10"
+fill="none"
+opacity="0.6"/>
+
+<path d="M950 350 C1100 260, 1260 430, 1450 330"
+stroke="#FFD600"
+stroke-width="2"
+stroke-dasharray="8 10"
+fill="none"
+opacity="0.6"/>
+
+<path d="M340 360 C480 260, 640 450, 900 360"
+stroke="#FFD600"
+stroke-width="2"
+stroke-dasharray="8 10"
+fill="none"
+opacity="0.6"/>
+
+<!-- REALISTIC BEE 1 -->
+
+<g class="bee1">
+
+<ellipse cx="250" cy="120" rx="20" ry="13" fill="#FFD600"/>
+
+<rect x="240" y="108" width="5" height="24" fill="#111"/>
+<rect x="250" y="108" width="5" height="24" fill="#111"/>
+<rect x="260" y="108" width="5" height="24" fill="#111"/>
+
+<ellipse class="wing" cx="240" cy="104" rx="14" ry="8"
+fill="#F2F2F2" opacity="0.9"/>
+
+<ellipse class="wing" cx="262" cy="104" rx="14" ry="8"
+fill="#F2F2F2" opacity="0.9"/>
+
+<circle cx="270" cy="118" r="3" fill="#111"/>
+
+</g>
+
+<!-- REALISTIC BEE 2 -->
+
+<g class="bee2">
+
+<ellipse cx="980" cy="340" rx="20" ry="13" fill="#FFD600"/>
+
+<rect x="970" y="328" width="5" height="24" fill="#111"/>
+<rect x="980" y="328" width="5" height="24" fill="#111"/>
+<rect x="990" y="328" width="5" height="24" fill="#111"/>
+
+<ellipse class="wing" cx="970" cy="314" rx="14" ry="8"
+fill="#F2F2F2" opacity="0.9"/>
+
+<ellipse class="wing" cx="992" cy="314" rx="14" ry="8"
+fill="#F2F2F2" opacity="0.9"/>
+
+<circle cx="1000" cy="338" r="3" fill="#111"/>
+
+</g>
+
+<!-- REALISTIC BEE 3 -->
+
+<g class="bee3">
+
+<ellipse cx="360" cy="360" rx="20" ry="13" fill="#FFD600"/>
+
+<rect x="350" y="348" width="5" height="24" fill="#111"/>
+<rect x="360" y="348" width="5" height="24" fill="#111"/>
+<rect x="370" y="348" width="5" height="24" fill="#111"/>
+
+<ellipse class="wing" cx="350" cy="334" rx="14" ry="8"
+fill="#F2F2F2" opacity="0.9"/>
+
+<ellipse class="wing" cx="372" cy="334" rx="14" ry="8"
+fill="#F2F2F2" opacity="0.9"/>
+
+<circle cx="380" cy="358" r="3" fill="#111"/>
+
+</g>
+
+<!-- Floating particles -->
+
+<circle class="particle" cx="720" cy="90" r="4" fill="#FFD600"/>
+<circle class="particle" cx="1240" cy="160" r="3" fill="#FFD600"/>
+<circle class="particle" cx="1380" cy="280" r="5" fill="#FFD600"/>
+
+</svg>
+```
