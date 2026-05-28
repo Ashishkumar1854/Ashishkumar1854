@@ -1,16 +1,14 @@
-```svg
-<svg width="1600" height="500" viewBox="0 0 1600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<svg width="1600" height="500" viewBox="0 0 1600 500" xmlns="http://www.w3.org/2000/svg">
 
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
-
 svg{
-  font-family:'Inter',sans-serif;
+  font-family: Arial, sans-serif;
   background:#050505;
 }
 
-/* Background glow */
+/* Animations */
 
 .bgGlow{
   animation: pulse 6s ease-in-out infinite;
@@ -20,8 +18,6 @@ svg{
   0%,100%{opacity:.45;}
   50%{opacity:.85;}
 }
-
-/* Bee Floating */
 
 .bee1{
   animation: fly1 11s infinite ease-in-out;
@@ -59,8 +55,6 @@ svg{
   100%{transform:translate(560px,20px);}
 }
 
-/* Wings */
-
 .wing{
   transform-origin:center;
   animation: flap .18s infinite alternate;
@@ -70,8 +64,6 @@ svg{
   from{transform:rotate(0deg);}
   to{transform:rotate(18deg);}
 }
-
-/* Floating particles */
 
 .particle{
   animation: float 6s infinite ease-in-out;
@@ -103,7 +95,7 @@ svg{
 
 </g>
 
-<!-- Peacock Feathers -->
+<!-- Peacock Feather -->
 
 <g opacity="0.18">
 
@@ -123,7 +115,7 @@ fill="none"/>
 <rect y="410" width="1600" height="12" fill="#FFD600"/>
 <rect y="450" width="1600" height="5" fill="#FFD600" opacity="0.9"/>
 
-<!-- Main Title -->
+<!-- Main Name -->
 
 <text x="90" y="190"
 font-size="78"
@@ -149,7 +141,7 @@ letter-spacing="3">
 AI AGENTS • AUTOMATION • BACKEND SYSTEMS
 </text>
 
-<!-- Right Heading -->
+<!-- Right Side Heading -->
 
 <text x="820" y="170"
 font-size="54"
@@ -172,7 +164,7 @@ fill="white">
 Automation Systems
 </text>
 
-<!-- Supporting Text -->
+<!-- Stack -->
 
 <text x="825" y="360"
 font-size="26"
@@ -204,7 +196,7 @@ stroke-dasharray="8 10"
 fill="none"
 opacity="0.6"/>
 
-<!-- REALISTIC BEE 1 -->
+<!-- Bee 1 -->
 
 <g class="bee1">
 
@@ -224,7 +216,7 @@ fill="#F2F2F2" opacity="0.9"/>
 
 </g>
 
-<!-- REALISTIC BEE 2 -->
+<!-- Bee 2 -->
 
 <g class="bee2">
 
@@ -244,7 +236,7 @@ fill="#F2F2F2" opacity="0.9"/>
 
 </g>
 
-<!-- REALISTIC BEE 3 -->
+<!-- Bee 3 -->
 
 <g class="bee3">
 
@@ -264,11 +256,10 @@ fill="#F2F2F2" opacity="0.9"/>
 
 </g>
 
-<!-- Floating particles -->
+<!-- Floating Particles -->
 
 <circle class="particle" cx="720" cy="90" r="4" fill="#FFD600"/>
 <circle class="particle" cx="1240" cy="160" r="3" fill="#FFD600"/>
 <circle class="particle" cx="1380" cy="280" r="5" fill="#FFD600"/>
 
 </svg>
-```
