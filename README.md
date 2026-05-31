@@ -33,7 +33,7 @@ I’m a full-stack developer who loves building cool MERN + AI powered products.
 
 ![OSS Contributor](https://img.shields.io/badge/Open%20Source-Contributor-3DA639?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
 
-🚀 More contributions in progress…
+🚀 More contributions in progress….
 
 ---
 
