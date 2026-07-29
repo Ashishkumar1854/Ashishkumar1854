@@ -210,24 +210,30 @@
 
 ## 📊 GitHub Stats & Analytics
 
-<div align="center">
+<p align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Ashishkumar1854&theme=tokyonight&no-frame=true&no-background=false&margin-w=10&column=7" width="100%" alt="Trophies"/>
+[![Trophies](https://github-profile-trophy.vercel.app/?username=Ashishkumar1854&theme=tokyonight&no-frame=true&no-background=true&margin-w=10&column=6)](https://github.com/Ashishkumar1854)
 
-<br/><br/>
+</p>
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Ashishkumar1854&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&custom_title=Ashish%27s+GitHub+Stats" alt="GitHub Stats"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ashishkumar1854&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&custom_title=Top+Languages" alt="Top Languages"/>
+<p align="center">
 
-<br/><br/>
+[![Ashish's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ashishkumar1854&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&custom_title=Ashish%27s+GitHub+Stats)](https://github.com/Ashishkumar1854)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ashishkumar1854&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&custom_title=Top+Languages)](https://github.com/Ashishkumar1854)
+
+</p>
+
+<p align="center">
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=Ashishkumar1854&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 
-<br/>
+</p>
+
+<p align="center">
 
 [![Ashish's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ashishkumar1854&theme=tokyo-night&hide_border=true&custom_title=Contribution+Activity+Graph)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-</div>
+</p>
 
 ---
 
@@ -246,6 +252,8 @@
 
 <br/>
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&text=Thanks+for+visiting!+%E2%AD%90+Star+my+repos+if+you+like+them!&fontSize=16&fontColor=fff&animation=twinkling&fontAlignY=65" width="100%"/>
-</div>
+<p align="center">
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&text=Thanks+for+visiting!+%E2%AD%90+Star+my+repos+if+you+like+them!&fontSize=16&fontColor=fff&animation=twinkling&fontAlignY=65)
+
+</p>
