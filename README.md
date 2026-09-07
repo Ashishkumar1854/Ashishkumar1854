@@ -32,7 +32,7 @@
 💼 Role: Full Stack SaaS & AI Engineer
 🏢 Experience: Full Stack Developer @ Botivate Services LLP
 🎓 Education: B.Tech IT — Rungta College of Engineering (2022–2026)
-📍 Location: Bhilai, Chhattisgarh, India 🇮🇳
+📍 Location: Raipur, Chhattisgarh, India 🇮🇳
 🌐 Portfolio: https://ashishportfolio.aigateway.in
 💡 Focus: Multi-Tenant SaaS · AI Agents · RAG · REST APIs
 🎯 Stats: 200+ LeetCode/GFG Problems · 90% Acceptance Rate
@@ -46,13 +46,13 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🛠️ KarigarHQ — Repair ERP SaaS
+### 🛠️ Kariger — Repair ERP SaaS
 
 **Multi-Tenant SaaS · 4-Tier RBAC · 9-Stage Lifecycle**
 
 > Repair business ERP with branch-level data isolation, automated workflows, and containerized deployment.
 
-- 👤 4-Role tier: Super Admin → Owner → Admin → Tech
+- 👤 4-Role tier: Super Admin → Owner → Admin → Technician
 - ⚙️ Full 9-stage job lifecycle automation
 - 🐳 Docker + GitHub Actions CI/CD on AWS EC2
 - 📉 Deploy time: **45 min → <5 min**
