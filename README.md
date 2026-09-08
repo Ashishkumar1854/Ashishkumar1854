@@ -6,7 +6,7 @@
 
 <!-- Animated Typing Header -->
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=800&color=6E57E0&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=900&height=55&lines=%F0%9F%91%8B+Hey%2C+I'm+Ashish+Kumar;%F0%9F%9A%80+Full+Stack+%26+AI+SaaS+Engineer;%F0%9F%8F%86+National+Hackathon+Finalist;%E2%9A%A1+Building+KarigarHQ+%26+AiGateway" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=800&color=6E57E0&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=900&height=55&lines=%F0%9F%91%8B+Hey%2C+I'm+Ashish+Kumar;%F0%9F%9A%80+Full+Stack+Developer+%7C+MERN+%7C+SaaS;%F0%9F%8F%86+National+Hackathon+Finalist;%E2%9A%A1+Building+Production-Ready+Products" alt="Typing SVG" />
 </div>
 
 <br/>
@@ -29,14 +29,47 @@
 
 ```yaml
 🧑 Name: Ashish Kumar
-💼 Role: Full Stack SaaS & AI Engineer
-🏢 Experience: Full Stack Developer @ Botivate Services LLP
-🎓 Education: B.Tech IT — Rungta College of Engineering (2022–2026)
+💼 Role: Full Stack Developer | MERN Stack | SaaS
+🏢 Experience: 1 year production experience across full-stack engineering roles
+🎓 Education: B.Tech IT — Rungta College of Engineering (Graduated 2026)
 📍 Location: Raipur, Chhattisgarh, India 🇮🇳
 🌐 Portfolio: https://ashishportfolio.aigateway.in
-💡 Focus: Multi-Tenant SaaS · AI Agents · RAG · REST APIs
-🎯 Stats: 200+ LeetCode/GFG Problems · 90% Acceptance Rate
+💡 Focus: Multi-Tenant SaaS · REST APIs · PostgreSQL · Docker · AWS EC2
+🎯 Stats: 150 Coding Problems · 90% Acceptance Rate
 ```
+
+---
+
+## 💼 Production Experience
+
+### Full Stack Engineer — Botivate Services LLP
+`Aug 2026 - Present` · Raipur, India
+
+- Own full-stack feature delivery, performance improvements, CI/CD, and deployment infrastructure.
+- Optimized slow database queries and added targeted indexes across 3 core modules.
+- Automated purchase approvals through WhatsApp Business API with PDF details and one-tap approval or rejection.
+- Replaced manual spreadsheet tracking with a month-wise purchase dashboard for approved, rejected, and pending requests.
+
+### Product Engineer - Full Stack SaaS — Phoneo
+`May 2026 - Jul 2026` · Bhilai, India
+
+- Architected KarigarHQ, a multi-tenant Repair ERP with 4 role tiers and branch-level data isolation.
+- Built the complete 9-stage repair lifecycle from customer intake through billing, payment, and handover.
+- Reduced deployment time from 45 minutes to under 5 minutes using GitHub Actions, Docker, Nginx, and AWS EC2.
+- Added 20 backend integration tests covering authentication, RBAC, tenant isolation, inventory, billing, and workflow transitions.
+
+### Frontend Developer — Phoneo
+`Feb 2026 - Apr 2026` · Bhilai, India
+
+- Launched the React.js and Next.js marketing website that supported onboarding of 4,300 mobile shops across 100 cities.
+- Integrated lead capture, demo scheduling, and CTA funnels with backend REST APIs, reducing manual sales outreach by 60%.
+- Fixed a live demo-booking production issue within 2 hours with zero client downtime and no data loss.
+
+### Web Developer — Rungta College Incubation Center
+`Feb 2023 - Nov 2024` · Bhilai, India
+
+- Founded and led a startup product through 4 major full-stack release cycles over 21 months.
+- Maintained Git workflows and PR review standards across a 4-person team with zero production rollbacks.
 
 ---
 
@@ -46,7 +79,7 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🛠️ Kariger — Repair ERP SaaS
+### 🛠️ KarigarHQ — Repair ERP SaaS
 
 **Multi-Tenant SaaS · 4-Tier RBAC · 9-Stage Lifecycle**
 
@@ -79,7 +112,6 @@
 - 🗄️ Tenant-aware MongoDB + PostgreSQL schema isolation
 
 ![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=next.js&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-FF6584?style=flat-square&logo=n8n&logoColor=white)
 ![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
@@ -103,8 +135,7 @@
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 
 </td>
 <td width="50%" valign="top">
@@ -116,6 +147,7 @@
 > High-converting seller acquisition platform for mobile retail stores with lead capture & funnel optimization.
 
 - 🏪 Serving **4,300+ mobile stores** across 100 cities
+- 🔄 Maintaining the live SaaS platform used by **50 active retailers**
 - 📈 Lead capture & demo booking funnels — **60% friction reduction**
 - 🔧 Fixed critical production bugs in **<2 hours**, zero downtime
 
@@ -144,6 +176,7 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -155,6 +188,8 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-1F2937?style=for-the-badge&logo=socketdotio&logoColor=white)
 
 ### 🗄️ Databases & ORM
 
@@ -165,15 +200,13 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
-### 🤖 AI / ML & Automation
+### 🔁 Automation & Integrations
 
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-FF6584?style=for-the-badge&logo=n8n&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![WhatsApp Business API](https://img.shields.io/badge/WhatsApp_Business_API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG_Pipelines-111827?style=for-the-badge&logo=openai&logoColor=white)
 
 ### 🐳 DevOps & Infrastructure
 
@@ -184,6 +217,14 @@
 ![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=for-the-badge&logo=turborepo&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
+### 🧰 Tools & Platforms
+
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+
 ---
 
 ## 🏆 Achievements & Certifications
@@ -191,12 +232,12 @@
 <table>
 <tr>
 <td>🥇</td>
-<td><strong>National Finalist — NCIIPC-AICTE Pentathon 2025</strong></td>
+<td><strong>National Finalist - NCIIPC-AICTE Pentathon 2025</strong></td>
 <td>Top <strong>230 / 26,000 teams</strong> • India's Premier Cybersecurity Hackathon</td>
 </tr>
 <tr>
 <td>🏆</td>
-<td><strong>National Finalist — CIH 2.0 National Hackathon 2025</strong></td>
+<td><strong>National Finalist - CIH 2.0 National Hackathon 2025</strong></td>
 <td>Recognized for breakthrough tech innovation at the national stage</td>
 </tr>
 <tr>
