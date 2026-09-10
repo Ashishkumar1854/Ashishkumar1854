@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banners.gif" width="100%" alt="Ashish Kumar Banner"/>
+<img src="https://raw.githubusercontent.com/Ashishkumar1854/Ashishkumar1854/main/assets/banners.gif" width="100%" alt="Ashish Kumar Banner"/>
 
 </div>
 
@@ -91,6 +91,9 @@
 - 📉 Deploy time: **45 min → <5 min**
 - ✅ 20 backend integration tests
 
+[![Architecture](https://img.shields.io/badge/Enterprise-Multi--Tenant_ERP-4F46E5?style=flat-square)](https://github.com/AshishOrgs)
+[![Status](https://img.shields.io/badge/Status-Production_Active-3FB950?style=flat-square)](#)
+
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
@@ -110,6 +113,9 @@
 - 🧠 n8n + OpenAI/Gemini lead scoring agent (0–100)
 - 🔒 Human-in-the-loop gate before CRM insertion
 - 🗄️ Tenant-aware MongoDB + PostgreSQL schema isolation
+
+[![GitHub Repo](https://img.shields.io/badge/🔗_GitHub-aiGateway-181717?style=flat-square&logo=github)](https://github.com/Ashishkumar1854/aiGateway)
+[![Portfolio Live](https://img.shields.io/badge/🌐_Portfolio-aigateway.in-8A2BE2?style=flat-square)](https://ashishportfolio.aigateway.in)
 
 ![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=next.js&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-FF6584?style=flat-square&logo=n8n&logoColor=white)
@@ -132,6 +138,7 @@
 - 🚫 Zero proxy voting in live authentication flow
 
 [![Demo](https://img.shields.io/badge/🔗_Live_Demo-LinkedIn-0A66C2?style=flat-square)](https://www.linkedin.com/posts/ashishkumar1854_electioncommissionofindia-blockchainvoting-activity-7346224352129875970-zjVA)
+[![GitHub Repo](https://img.shields.io/badge/🔗_GitHub-Voting_Repo-181717?style=flat-square&logo=github)](https://github.com/Ashishkumar1854/FaceBaseed-Faster-and-Secure-Voting-system)
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -150,6 +157,9 @@
 - 🔄 Maintaining the live SaaS platform used by **50 active retailers**
 - 📈 Lead capture & demo booking funnels — **60% friction reduction**
 - 🔧 Fixed critical production bugs in **<2 hours**, zero downtime
+
+[![Live Site](https://img.shields.io/badge/🔗_Live_Site-seller.phoneo.in-00C7B7?style=flat-square)](https://seller.phoneo.in)
+[![Status](https://img.shields.io/badge/Status-Live_Production-3FB950?style=flat-square)](#)
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
