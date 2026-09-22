@@ -91,14 +91,14 @@
 - 📉 Deploy time: **45 min → <5 min**
 - ✅ 20 backend integration tests
 
-[![Architecture](https://img.shields.io/badge/Enterprise-Multi--Tenant_ERP-4F46E5?style=flat-square)](https://github.com/AshishOrgs)
-[![Status](https://img.shields.io/badge/Status-Production_Active-3FB950?style=flat-square)](#)
+[![Architecture](https://img.shields.io/badge/Enterprise-Multi--Tenant_ERP-4F46E5?style=flat-square&labelColor=0D1117)](https://github.com/AshishOrgs)
+[![Status](https://img.shields.io/badge/Status-Production_Active-3FB950?style=flat-square&labelColor=0D1117)](#)
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![React](https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-0D1117?style=flat-square&logo=node.js&logoColor=339933)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=4169E1)
+![Docker](https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED)
+![AWS](https://img.shields.io/badge/AWS_EC2-0D1117?style=flat-square&logo=amazonaws&logoColor=FF9900)
 
 </td>
 <td width="50%" valign="top">
@@ -114,13 +114,13 @@
 - 🔒 Human-in-the-loop gate before CRM insertion
 - 🗄️ Tenant-aware MongoDB + PostgreSQL schema isolation
 
-[![GitHub Repo](https://img.shields.io/badge/🔗_GitHub-aiGateway-181717?style=flat-square&logo=github)](https://github.com/Ashishkumar1854/aiGateway)
-[![Portfolio Live](https://img.shields.io/badge/🌐_Portfolio-aigateway.in-8A2BE2?style=flat-square)](https://ashishportfolio.aigateway.in)
+[![GitHub Repo](https://img.shields.io/badge/🔗_GitHub-aiGateway-0D1117?style=flat-square&logo=github&labelColor=0D1117)](https://github.com/Ashishkumar1854/aiGateway)
+[![Portfolio Live](https://img.shields.io/badge/🌐_Portfolio-aigateway.in-0D1117?style=flat-square&labelColor=0D1117&color=8A2BE2)](https://ashishportfolio.aigateway.in)
 
-![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=next.js&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-FF6584?style=flat-square&logo=n8n&logoColor=white)
-![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js_14-0D1117?style=flat-square&logo=next.js&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-0D1117?style=flat-square&logo=n8n&logoColor=FF6584)
+![Turborepo](https://img.shields.io/badge/Turborepo-0D1117?style=flat-square&logo=turborepo&logoColor=EF4444)
+![MongoDB](https://img.shields.io/badge/MongoDB-0D1117?style=flat-square&logo=mongodb&logoColor=47A248)
 
 </td>
 </tr>
@@ -137,12 +137,12 @@
 - 🔐 ACID-compliant session state + encrypted audit trail
 - 🚫 Zero proxy voting in live authentication flow
 
-[![Demo](https://img.shields.io/badge/🔗_Live_Demo-LinkedIn-0A66C2?style=flat-square)](https://www.linkedin.com/posts/ashishkumar1854_electioncommissionofindia-blockchainvoting-activity-7346224352129875970-zjVA)
-[![GitHub Repo](https://img.shields.io/badge/🔗_GitHub-Voting_Repo-181717?style=flat-square&logo=github)](https://github.com/Ashishkumar1854/FaceBaseed-Faster-and-Secure-Voting-system)
+[![Demo](https://img.shields.io/badge/🔗_Live_Demo-LinkedIn-0D1117?style=flat-square&labelColor=0D1117&color=0A66C2)](https://www.linkedin.com/posts/ashishkumar1854_electioncommissionofindia-blockchainvoting-activity-7346224352129875970-zjVA)
+[![GitHub Repo](https://img.shields.io/badge/🔗_GitHub-Voting_Repo-0D1117?style=flat-square&logo=github&labelColor=0D1117)](https://github.com/Ashishkumar1854/FaceBaseed-Faster-and-Secure-Voting-system)
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![React](https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=61DAFB)
+![Python](https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB)
+![Node.js](https://img.shields.io/badge/Node.js-0D1117?style=flat-square&logo=node.js&logoColor=339933)
 
 </td>
 <td width="50%" valign="top">
@@ -158,12 +158,12 @@
 - 📈 Lead capture & demo booking funnels — **60% friction reduction**
 - 🔧 Fixed critical production bugs in **<2 hours**, zero downtime
 
-[![Live Site](https://img.shields.io/badge/🔗_Live_Site-seller.phoneo.in-00C7B7?style=flat-square)](https://seller.phoneo.in)
-[![Status](https://img.shields.io/badge/Status-Live_Production-3FB950?style=flat-square)](#)
+[![Live Site](https://img.shields.io/badge/🔗_Live_Site-seller.phoneo.in-0D1117?style=flat-square&labelColor=0D1117&color=00C7B7)](https://seller.phoneo.in)
+[![Status](https://img.shields.io/badge/Status-Live_Production-3FB950?style=flat-square&labelColor=0D1117)](#)
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_APIs-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![React](https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-0D1117?style=flat-square&logo=next.js&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_APIs-0D1117?style=flat-square&logo=postman&logoColor=FF6C37)
 
 </td>
 </tr>
@@ -183,15 +183,15 @@
 
 [![Frontend](https://skillicons.dev/icons?i=react,nextjs,redux,tailwind,html,css&theme=dark)](https://skillicons.dev)
 
-![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-0D1117?style=flat-square&logo=axios&logoColor=5A29E4)
 
 ### ⚙️ Backend & APIs
 
 [![Backend](https://skillicons.dev/icons?i=nodejs,express,fastapi,flask&theme=dark)](https://skillicons.dev)
 
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-![WebSockets](https://img.shields.io/badge/WebSockets-1F2937?style=flat-square&logo=socketdotio&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-0D1117?style=flat-square&logo=socket.io&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-0D1117?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-0D1117?style=flat-square&logo=socketdotio&logoColor=white)
 
 ### 🗄️ Databases & ORM
 
@@ -199,17 +199,17 @@
 
 ### 🔁 Automation & Integrations
 
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-FF6584?style=for-the-badge&logo=n8n&logoColor=white)
-![WhatsApp Business API](https://img.shields.io/badge/WhatsApp_Business_API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG_Pipelines-111827?style=for-the-badge&logo=openai&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-0D1117?style=for-the-badge&logo=openai&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Gemini-0D1117?style=for-the-badge&logo=googlegemini&logoColor=8E75B2)
+![n8n](https://img.shields.io/badge/n8n-0D1117?style=for-the-badge&logo=n8n&logoColor=FF6584)
+![WhatsApp Business API](https://img.shields.io/badge/WhatsApp_Business_API-0D1117?style=for-the-badge&logo=whatsapp&logoColor=25D366)
+![RAG](https://img.shields.io/badge/RAG_Pipelines-0D1117?style=for-the-badge&logo=openai&logoColor=white)
 
 ### 🐳 DevOps & Infrastructure
 
 [![DevOps](https://skillicons.dev/icons?i=docker,githubactions,aws,nginx,git&theme=dark)](https://skillicons.dev)
 
-![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white)
+![Turborepo](https://img.shields.io/badge/Turborepo-0D1117?style=flat-square&logo=turborepo&logoColor=EF4444)
 
 ### 🧰 Tools & Platforms
 
@@ -261,20 +261,20 @@
 
 <p align="center">
 
-[![Ashish's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ashishkumar1854&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&custom_title=Ashish%27s+GitHub+Stats)](https://github.com/Ashishkumar1854)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ashishkumar1854&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&custom_title=Top+Languages)](https://github.com/Ashishkumar1854)
+[![Ashish's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ashishkumar1854&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&include_all_commits=true&rank_icon=github&custom_title=Ashish%27s+GitHub+Stats)](https://github.com/Ashishkumar1854)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ashishkumar1854&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=8&custom_title=Top+Languages)](https://github.com/Ashishkumar1854)
 
 </p>
 
 <p align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=Ashishkumar1854&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Ashishkumar1854&theme=tokyonight&hide_border=true&background=0D1117&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 
 </p>
 
 <p align="center">
 
-[![Ashish's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ashishkumar1854&theme=tokyo-night&hide_border=true&custom_title=Contribution+Activity+Graph)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Ashish's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ashishkumar1854&theme=tokyo-night&hide_border=true&bg_color=0D1117&custom_title=Contribution+Activity+Graph)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </p>
 
@@ -284,12 +284,12 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ashish_Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ashishkumar1854)
-[![Portfolio](https://img.shields.io/badge/Portfolio-aigateway.in-BB9AF7?style=for-the-badge&logo=vercel&logoColor=white)](https://ashishportfolio.aigateway.in)
-[![Email](https://img.shields.io/badge/Email-ashishyadav.dev%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ashishyadav.dev@gmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Ashishkumar1854-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/Ashishkumar1854)
-[![HackerRank](https://img.shields.io/badge/HackerRank-Ashishkumar-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://hackerrank.com/Ashishkumar)
-[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-Ashishkumar-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://geeksforgeeks.org/user/ashishkumar1854)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ashish_Kumar-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0D1117)](https://linkedin.com/in/ashishkumar1854)
+[![Portfolio](https://img.shields.io/badge/Portfolio-aigateway.in-0D1117?style=for-the-badge&logo=vercel&logoColor=BB9AF7&labelColor=0D1117)](https://ashishportfolio.aigateway.in)
+[![Email](https://img.shields.io/badge/Email-ashishyadav.dev%40gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0D1117)](mailto:ashishyadav.dev@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Ashishkumar1854-0D1117?style=for-the-badge&logo=leetcode&logoColor=FFA116&labelColor=0D1117)](https://leetcode.com/Ashishkumar1854)
+[![HackerRank](https://img.shields.io/badge/HackerRank-Ashishkumar-0D1117?style=for-the-badge&logo=hackerrank&logoColor=00EA64&labelColor=0D1117)](https://hackerrank.com/Ashishkumar)
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-Ashishkumar-0D1117?style=for-the-badge&logo=geeksforgeeks&logoColor=2F8D46&labelColor=0D1117)](https://geeksforgeeks.org/user/ashishkumar1854)
 
 </div>
 
