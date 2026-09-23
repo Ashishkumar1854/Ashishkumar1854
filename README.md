@@ -192,6 +192,7 @@
 ![Socket.io](https://img.shields.io/badge/Socket.io-0D1117?style=flat-square&logo=socket.io&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-0D1117?style=flat-square&logo=jsonwebtokens&logoColor=white)
 ![WebSockets](https://img.shields.io/badge/WebSockets-0D1117?style=flat-square&logo=socketdotio&logoColor=white)
+![Webhooks](https://img.shields.io/badge/Webhooks-0D1117?style=flat-square&logo=webhook&logoColor=white)
 
 ### 🗄️ Databases & ORM
 
@@ -201,6 +202,7 @@
 
 ![OpenAI](https://img.shields.io/badge/OpenAI-0D1117?style=for-the-badge&logo=openai&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Gemini-0D1117?style=for-the-badge&logo=googlegemini&logoColor=8E75B2)
+![LLMs](https://img.shields.io/badge/LLMs-0D1117?style=for-the-badge&logo=huggingface&logoColor=FFD21E)
 ![n8n](https://img.shields.io/badge/n8n-0D1117?style=for-the-badge&logo=n8n&logoColor=FF6584)
 ![WhatsApp Business API](https://img.shields.io/badge/WhatsApp_Business_API-0D1117?style=for-the-badge&logo=whatsapp&logoColor=25D366)
 ![RAG](https://img.shields.io/badge/RAG_Pipelines-0D1117?style=for-the-badge&logo=openai&logoColor=white)
@@ -209,6 +211,7 @@
 
 [![DevOps](https://skillicons.dev/icons?i=docker,githubactions,aws,nginx,git&theme=dark)](https://skillicons.dev)
 
+![Nginx](https://img.shields.io/badge/Nginx-0D1117?style=flat-square&logo=nginx&logoColor=009639)
 ![Turborepo](https://img.shields.io/badge/Turborepo-0D1117?style=flat-square&logo=turborepo&logoColor=EF4444)
 
 ### 🧰 Tools & Platforms
