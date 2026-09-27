@@ -29,13 +29,13 @@
 
 ```yaml
 🧑 Name: Ashish Kumar
-💼 Role: Full Stack Developer | MERN Stack | SaaS
+💼 Role: Full Stack Developer |  AI Agenet Developer | SaaS Product builder
 🏢 Experience: 1 year production experience across full-stack engineering roles
 🎓 Education: B.Tech IT — Rungta College of Engineering (Graduated 2026)
 📍 Location: Raipur, Chhattisgarh, India 🇮🇳
 🌐 Portfolio: https://ashishportfolio.aigateway.in
 💡 Focus: Multi-Tenant SaaS · REST APIs · PostgreSQL · Docker · AWS EC2
-🎯 Stats: 150 Coding Problems · 90% Acceptance Rate
+🎯 Stats: 200 Coding Problems · 80% Acceptance Rate
 ```
 
 ---
