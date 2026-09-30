@@ -47,7 +47,7 @@
 
 Sole full-stack engineer across 4 production systems spanning B2B SaaS, multi-tenant ERP, and AI-powered platforms. Owned the entire software lifecycle — architecture, development, deployment, and infra — end-to-end.
 
-**🏭 Jewel Factory — Multi-Tenant B2B Jewellery Platform** *(Next.js 15, PostgreSQL, Prisma, AWS EC2 + S3 + CloudFront)*
+**🏭 Jewellery Factory — Multi-Tenant B2B Jewellery Platform** *(Next.js 15, PostgreSQL, Prisma, AWS EC2 + S3 + CloudFront)*
 - Designed and built a 4-role multi-tenant SaaS from scratch: Manufacturer, Purchase Manager (Head Office), Store Manager, and Kiosk — each with strict data isolation via route guards and cookie-based HMAC-SHA256 auth.
 - Architected a full order lifecycle covering Kiosk (walk-in), Catalog (B2B), and Custom Design orders, with per-branch approval flows, real-time order chat, and Mark Completed handover — all on a single polymorphic `order_messages` table.
 - Integrated AI Features microservice (Python + Docker, deployed on Hugging Face): catalog image generation, virtual try-on (2-step OpenAI pipeline → transparent PNG), AI product description, and OpenCLIP-powered visual similarity search backed by PostgreSQL `pgvector` — replaced Qdrant with zero extra infra.
@@ -61,18 +61,18 @@ Sole full-stack engineer across 4 production systems spanning B2B SaaS, multi-te
 - Built a CSV/BioTime device sync pipeline to import biometric punch data from physical attendance hardware into the system nightly.
 - Generated downloadable payslips, salary-difference reports, and zero-basic-salary audit reports directly from the backend as structured Excel/PDF.
 
-**📦 Sarvodaya Infracon — Real Estate CRM & ERP** *(React + Vite, Supabase, Hono)*
+**📦 Real Estate CRM & ERP** *(React + Vite, Supabase, Hono)*
 - Built a multi-vertical CRM for Real Estate, Insurance, and Mutual Fund operations with automated lead numbering (L-RE-0001, L-IN-0001, L-MF-0001) and conditional vertical-specific fields.
 - Delivered telecalling workflow: Pending Tracker → Call Outcome (Received/Expected/Not Interested/Need Meeting) → Customer Master auto-conversion, with a full chronological audit trail.
 - Added Excel bulk import, one-click caller performance reports (by lead type, caller, and month), and a fully mobile-responsive layout with boundary-clamped dropdowns and momentum scrolling.
 
-**🏪 Shri Shyam Store — Procurement & Inventory Management System** *(Node.js, Express, Prisma, PostgreSQL, React + Vite, AWS S3)*
+**🏪 Procurement & Inventory Management System** *(Node.js, Express, Prisma, PostgreSQL, React + Vite, AWS S3)*
 - Built an end-to-end procurement platform covering a 7-stage indent lifecycle: Indent Creation → Department Head Approval → Vendor Quotation Collection → Three-Party Comparative Approval → Purchase Order Generation → Store In (Goods Receipt) → Store Out (Material Issuance).
 - Implemented automated delay tracking at each stage, real-time inventory updates on receipt and issue events, and WhatsApp Business API notifications for purchase order and approval alerts.
 - Built vendor management with rate comparison engine supporting multi-vendor quotation history, rate revision cycles, and price benchmarking before PO award.
 - Designed JSON-based role permissions for modular page-level access control, and integrated AWS S3 for document storage (indents, POs, bills, and delivery receipts).
 
-**🚗 ShineDesk — Car Detailing ERP** *(Next.js, Supabase, PostgreSQL)*
+**🚗 Car Detailing ERP** *(Next.js, Supabase, PostgreSQL)*
 - Designed and built a full detailing studio ERP: job orders, delivery tracking, finance, sales, and workforce modules under a single dashboard.
 - Implemented an attendance and salary engine: WebRTC camera frame capture → HTML5 Canvas watermark stamping (Name + Timestamp + GPS coords) → Cloudinary upload pipeline, plus a monthly payroll calculator with OT and EMI deductions.
 
