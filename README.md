@@ -45,10 +45,30 @@
 ### Full Stack Engineer — Botivate Services LLP
 `Aug 2026 - Present` · Raipur, India
 
-- Own full-stack feature delivery, performance improvements, CI/CD, and deployment infrastructure.
-- Optimized slow database queries and added targeted indexes across 3 core modules.
-- Automated purchase approvals through WhatsApp Business API with PDF details and one-tap approval or rejection.
-- Replaced manual spreadsheet tracking with a month-wise purchase dashboard for approved, rejected, and pending requests.
+Sole full-stack engineer across 4 production systems spanning B2B SaaS, multi-tenant ERP, and AI-powered platforms. Owned the entire software lifecycle — architecture, development, deployment, and infra — end-to-end.
+
+**🏭 Jewel Factory — Multi-Tenant B2B Jewellery Platform** *(Next.js 15, PostgreSQL, Prisma, AWS EC2 + S3 + CloudFront)*
+- Designed and built a 4-role multi-tenant SaaS from scratch: Manufacturer, Purchase Manager (Head Office), Store Manager, and Kiosk — each with strict data isolation via route guards and cookie-based HMAC-SHA256 auth.
+- Architected a full order lifecycle covering Kiosk (walk-in), Catalog (B2B), and Custom Design orders, with per-branch approval flows, real-time order chat, and Mark Completed handover — all on a single polymorphic `order_messages` table.
+- Integrated AI Features microservice (Python + Docker, deployed on Hugging Face): catalog image generation, virtual try-on (2-step OpenAI pipeline → transparent PNG), AI product description, and OpenCLIP-powered visual similarity search backed by PostgreSQL `pgvector` — replaced Qdrant with zero extra infra.
+- Migrated all media from Cloudinary to AWS S3 + CloudFront with presigned direct-upload; set up CORS and IAM correctly across 4 separate origin configs.
+- Shipped automated Karigar (artisan) assignment flow for order-to-dispatch, PIN-walled per-branch restock ordering, and retailer intelligence/analytics dashboard.
+- Deployed on AWS EC2 via Docker with auto-migration on container start; database on AWS RDS Postgres; configured Nginx + Certbot TLS for custom production domains.
+
+**🏢 HR FMS — Enterprise HR & Payroll System** *(Next.js + Node.js/Express, PostgreSQL, Supabase)*
+- Built a 5-role HR platform (Employee, HOD, HR Specialist, Admin, Canteen Manager) with full RBAC — route guards enforce data scope at the DB query level (`WHERE employee_id = user.id`).
+- Delivered 18+ HR modules end-to-end: biometric attendance with GPS + face-capture watermarking, monthly payroll engine (base + OT at 1.5× + advance EMI deductions), leave management (multi-stage HOD→HR approval), PF/ESIC compliance, gate pass, canteen, resignation workflow, and job vacancy + application portal.
+- Built a CSV/BioTime device sync pipeline to import biometric punch data from physical attendance hardware into the system nightly.
+- Generated downloadable payslips, salary-difference reports, and zero-basic-salary audit reports directly from the backend as structured Excel/PDF.
+
+**📦 Sarvodaya Infracon — Real Estate CRM & ERP** *(React + Vite, Supabase, Hono)*
+- Built a multi-vertical CRM for Real Estate, Insurance, and Mutual Fund operations with automated lead numbering (L-RE-0001, L-IN-0001, L-MF-0001) and conditional vertical-specific fields.
+- Delivered telecalling workflow: Pending Tracker → Call Outcome (Received/Expected/Not Interested/Need Meeting) → Customer Master auto-conversion, with a full chronological audit trail.
+- Added Excel bulk import, one-click caller performance reports (by lead type, caller, and month), and a fully mobile-responsive layout with boundary-clamped dropdowns and momentum scrolling.
+
+**🚗 ShineDesk — Car Detailing ERP** *(Next.js, Supabase, PostgreSQL)*
+- Designed and built a full detailing studio ERP: job orders, delivery tracking, finance, sales, and workforce modules under a single dashboard.
+- Implemented an attendance and salary engine: WebRTC camera frame capture → HTML5 Canvas watermark stamping (Name + Timestamp + GPS coords) → Cloudinary upload pipeline, plus a monthly payroll calculator with OT and EMI deductions.
 
 ### Product Engineer - Full Stack SaaS — Phoneo
 `May 2026 - Jul 2026` · Bhilai, India
