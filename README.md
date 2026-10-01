@@ -290,7 +290,7 @@ Sole full-stack engineer across 4 production systems spanning B2B SaaS, multi-te
 
 <p align="center">
 
-[![Ashish's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ashishkumar1854&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&include_all_commits=true&rank_icon=github&custom_title=Ashish%27s+GitHub+Stats)](https://github.com/Ashishkumar1854)
+[![Ashish's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ashishkumar1854&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&include_all_commits=true&hide=contribs&rank_icon=github&custom_title=Ashish%27s+GitHub+Stats)](https://github.com/Ashishkumar1854)
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ashishkumar1854&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=8&custom_title=Top+Languages)](https://github.com/Ashishkumar1854)
 
 </p>
