@@ -73,10 +73,11 @@ Sole full-stack engineer across 4 production systems spanning B2B SaaS, multi-te
 - Designed JSON-based role permissions for modular page-level access control, and integrated AWS S3 for document storage (indents, POs, bills, and delivery receipts).
 
 **🚗 Car Detailing ERP** *(Next.js, Supabase, PostgreSQL)*
-- Built a full ERP for a car detailing studio that tracks every car through a 12-stage job lifecycle, from material check, booking, and inspection through QC, billing, delivery, and a one-week check-up. It covers sales, finance, inventory, and HR on 19 PostgreSQL tables.
-- Wrote a TAT/SLA engine with per-stage deadlines that respect shift hours and holidays and flag delayed jobs. Added admin-only skip, revert, and cancel actions; each needs a remark and is written to the audit log.
-- Built geo-tagged selfie attendance: a WebRTC camera frame is stamped on an HTML5 Canvas with name, time, and GPS, then uploaded to Supabase Storage. Payroll counts half days, per-minute overtime, holiday overtime, advance EMIs, and sales incentives based on monthly targets.
-- Added Supabase Realtime sync so open sessions refresh without a reload, page-level permissions per user, client-side PDF/Excel export, and a GitHub Actions CI gate that runs typecheck, lint, and build.
+*Problem:* A car detailing studio (coating, PPF, polishing) works on many cars at once. The owner needs to know where each car is, which jobs are running late, what was billed, and how much each employee should be paid.
+- **One track for every car:** each car goes through 12 fixed steps: material check → appointment → car received → inspection → work planning → work → quality check → inform customer → billing → delivery → 1-week check-up. Staff update the step in the app, and the owner sees every car's status on one dashboard.
+- **Late jobs are flagged automatically:** each step has a time limit (for example, 6 hrs for work and 45 min for QC) that counts only shift hours and skips holidays. A job that goes past its limit is marked as delayed. If a step was done wrong, an admin can send the job back, skip a step, or cancel the order, and must give a reason that is saved in the audit log.
+- **Attendance with proof, linked to salary:** staff punch in with a selfie, and the app stamps their name, the time, and the GPS location on the photo before saving it. Payroll uses these records: a punch-in after 11 AM counts as a half day, work after 9 PM is paid as overtime by the minute, advance EMIs are deducted, and a sales incentive is added when an employee beats their monthly target.
+- **Built for a team:** each user sees only the pages they're allowed to, changes show up on everyone's screen without a refresh, and invoices and reports export to PDF or Excel.
 
 ### Product Engineer - Full Stack SaaS — Phoneo
 `May 2026 - Jul 2026` · Bhilai, India
