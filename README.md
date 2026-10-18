@@ -73,8 +73,10 @@ Sole full-stack engineer across 4 production systems spanning B2B SaaS, multi-te
 - Designed JSON-based role permissions for modular page-level access control, and integrated AWS S3 for document storage (indents, POs, bills, and delivery receipts).
 
 **🚗 Car Detailing ERP** *(Next.js, Supabase, PostgreSQL)*
-- Designed and built a full detailing studio ERP: job orders, delivery tracking, finance, sales, and workforce modules under a single dashboard.
-- Implemented an attendance and salary engine: WebRTC camera frame capture → HTML5 Canvas watermark stamping (Name + Timestamp + GPS coords) → Cloudinary upload pipeline, plus a monthly payroll calculator with OT and EMI deductions.
+- Built a full ERP for a car detailing studio that tracks every car through a 12-stage job lifecycle, from material check, booking, and inspection through QC, billing, delivery, and a one-week check-up. It covers sales, finance, inventory, and HR on 19 PostgreSQL tables.
+- Wrote a TAT/SLA engine with per-stage deadlines that respect shift hours and holidays and flag delayed jobs. Added admin-only skip, revert, and cancel actions; each needs a remark and is written to the audit log.
+- Built geo-tagged selfie attendance: a WebRTC camera frame is stamped on an HTML5 Canvas with name, time, and GPS, then uploaded to Supabase Storage. Payroll counts half days, per-minute overtime, holiday overtime, advance EMIs, and sales incentives based on monthly targets.
+- Added Supabase Realtime sync so open sessions refresh without a reload, page-level permissions per user, client-side PDF/Excel export, and a GitHub Actions CI gate that runs typecheck, lint, and build.
 
 ### Product Engineer - Full Stack SaaS — Phoneo
 `May 2026 - Jul 2026` · Bhilai, India
@@ -315,7 +317,7 @@ Sole full-stack engineer across 4 production systems spanning B2B SaaS, multi-te
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ashish_Kumar-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0D1117)](https://linkedin.com/in/ashishkumar1854)
 [![Portfolio](https://img.shields.io/badge/Portfolio-aigateway.in-0D1117?style=for-the-badge&logo=vercel&logoColor=BB9AF7&labelColor=0D1117)](https://ashishportfolio.aigateway.in)
-[![Email](https://img.shields.io/badge/Email-ashishyadav.dev%40gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0D1117)](mailto:ashishyadav.dev@gmail.com)
+[![Email](https://img.shields.io/badge/Email-ashishkyadav.dev%40gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0D1117)](mailto:ashishkyadav.dev@gmail.com)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Ashishkumar1854-0D1117?style=for-the-badge&logo=leetcode&logoColor=FFA116&labelColor=0D1117)](https://leetcode.com/Ashishkumar1854)
 [![HackerRank](https://img.shields.io/badge/HackerRank-Ashishkumar-0D1117?style=for-the-badge&logo=hackerrank&logoColor=00EA64&labelColor=0D1117)](https://hackerrank.com/Ashishkumar)
 [![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-Ashishkumar-0D1117?style=for-the-badge&logo=geeksforgeeks&logoColor=2F8D46&labelColor=0D1117)](https://geeksforgeeks.org/user/ashishkumar1854)
