@@ -36,6 +36,7 @@
 🌐 Portfolio: https://ashishportfolio.aigateway.in
 💡 Focus: Multi-Tenant SaaS · REST APIs · PostgreSQL · Docker · AWS EC2
 🎯 Stats: 200 Coding Problems · 80% Acceptance Rate
+🤝 Freelancing: Open to freelance projects — contact ashishkr.freelancer@gmail.com
 ```
 
 ---
