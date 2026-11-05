@@ -33,6 +33,7 @@
 🏢 Experience: 1 year production experience across full-stack engineering roles
 🎓 Education: B.Tech IT — Rungta College of Engineering (Graduated 2026)
 📍 Location: Raipur, Chhattisgarh, India 🇮🇳
+🏡 Hometown: Gopalganj, Bihar, India 🇮🇳
 🌐 Portfolio: https://ashishportfolio.aigateway.in
 💡 Focus: Multi-Tenant SaaS · REST APIs · PostgreSQL · Docker · AWS EC2
 🎯 Stats: 200 Coding Problems · 80% Acceptance Rate
