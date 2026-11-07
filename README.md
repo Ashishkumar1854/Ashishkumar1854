@@ -40,6 +40,14 @@
 🤝 Freelancing: Open to freelance projects — contact ashishkr.freelancer@gmail.com
 ```
 
+> [!IMPORTANT]
+> **Most of my work is in private repositories.** I build industry automation and ERP systems for clients, so most of my pull requests and commits are in private repos and don't appear in the public stats on this profile.
+>
+> **To see what I've built:**
+> - 💼 Read the [**Production Experience**](#-production-experience) section below for project-level details.
+> - 🔗 See my work posts on [**LinkedIn**](https://linkedin.com/in/ashishkumar1854).
+> - 🌐 Read the case studies on my [**Portfolio**](https://ashishportfolio.aigateway.in).
+
 ---
 
 ## 💼 Production Experience
