@@ -295,7 +295,9 @@ Sole full-stack engineer across 4 production systems spanning B2B SaaS, multi-te
 
 <!-- PR-SECTION:START -->
 
-## 🔀 Merged Pull Requests
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains%20Mono&amp;weight=700&amp;size=30&amp;pause=1200&amp;color=3FB950&amp;background=00000000&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=60&amp;lines=%F0%9F%94%80%20Merged%20Pull%20Requests%3B%F0%9F%9A%80%2013%20PRs%20merged%20in%20November%202026%3B%F0%9F%94%A5%20105%20PRs%20merged%20in%20the%20last%2012%20months" alt="Merged Pull Requests" />
+</div>
 
 > Most of these pull requests are in private client repositories, so the links and code are not public. This list is updated automatically every day from the GitHub API.
 
@@ -307,22 +309,23 @@ Sole full-stack engineer across 4 production systems spanning B2B SaaS, multi-te
 
 > feat(website): Dark Motorsport Luxury redesign of the public site; feat(website): add before/after and scroll-wash images (+1 more commit)
 
-Merged 2026-11-03 · 23 files · `+798` / `-201`
+Merged 03&nbsp;Nov&nbsp;2026 · 23 files · `+798` / `-201`
 
 ### 🕒 Last 10 merged PRs
 
-| Merged | Pull request | What it does | Repo | Changes |
-|---|---|---|---|---|
-| 2026-11-06 | feat(dashboard): Other Expenses card, form and P&L deduction | Records business bills paid outside petty cash (rent, electricity, internet, marketing, professional fees, tax, loan EMI, ...) from the Own… | 🔒 Private repo | `+336` `-13` |
-| 2026-11-04 | feat(dashboard): top-5 Revenue by Service with View all; settings card spacing | Owner Dashboard: Revenue by Service lists the top 5 services by default with a "View all N services" / "Show less" toggle, so the card line… | 🔒 Private repo | `+15` `-1` |
-| 2026-11-04 | feat(payroll): show base salary and payable days in the payroll table | feat(permissions): sensitive-access toggles for sales data and export; Revert "feat(permissions): sensitive-access toggles… (+1 more commit) | 🔒 Private repo | `+163` `-38` |
-| 2026-11-04 | feat(payroll): earned-to-date pay, Excel export, and hide inactive staff | Payroll | 🔒 Private repo | `+214` `-79` |
-| 2026-11-03 | feat(website): redesign "Quality is our business" products section | feat(website): add product and products-hero images | 🔒 Private repo | `+188` `-43` |
-| 2026-11-03 | feat(website): single-card booking form with Service Master services … | feat(website): Dark Motorsport Luxury redesign of the public site; feat(website): add before/after and scroll-wash images (+1 more commit) | 🔒 Private repo | `+798` `-201` |
-| 2026-11-02 | feat(payroll): month picker to review and settle past months | feat(audit-log): filter by period, date range, user, module and search | 🔒 Private repo | `+319` `-28` |
-| 2026-11-02 | [feat: Received Items detail view from the dashboard card](https://github.com/ssg-mis/store_frontend/pull/20) | fix: send orderedWeight only when it is entered on an indent | [ssg-mis/store_frontend](https://github.com/ssg-mis/store_frontend) | `+746` `-2` |
-| 2026-11-02 | [feat: Employee Type in joining forms with auto employee code preview](https://github.com/ssg-mis/hr_frontend/pull/47) | fix: ask for company and type before showing the employee code | [ssg-mis/hr_frontend](https://github.com/ssg-mis/hr_frontend) | `+54` `-13` |
-| 2026-11-02 | feat: employee code series by employee type (Employee / Helper) | fix: show employee code only after company and type are selected | 🔒 Private repo | `+59` `-13` |
+<table>
+  <tr><th>Merged</th><th>Pull request</th><th>What it does</th><th>Repo</th><th>Changes</th></tr>
+  <tr><td rowspan="1" align="center"><b>06&nbsp;Nov&nbsp;2026</b></td><td>feat(dashboard): Other Expenses card, form and P&amp;L deduction</td><td>Records business bills paid outside petty cash (rent, electricity, internet, marketing, professional fees, tax, loan EMI, ...) from the Own…</td><td>🔒 Private repo</td><td><code>+336</code>&nbsp;<code>-13</code></td></tr>
+  <tr><td rowspan="3" align="center"><b>04&nbsp;Nov&nbsp;2026</b></td><td>feat(dashboard): top-5 Revenue by Service with View all; settings card spacing</td><td>Owner Dashboard: Revenue by Service lists the top 5 services by default with a &quot;View all N services&quot; / &quot;Show less&quot; toggle, so the card line…</td><td>🔒 Private repo</td><td><code>+15</code>&nbsp;<code>-1</code></td></tr>
+  <tr><td>feat(payroll): show base salary and payable days in the payroll table</td><td>feat(permissions): sensitive-access toggles for sales data and export; Revert &quot;feat(permissions): sensitive-access toggles… (+1 more commit)</td><td>🔒 Private repo</td><td><code>+163</code>&nbsp;<code>-38</code></td></tr>
+  <tr><td>feat(payroll): earned-to-date pay, Excel export, and hide inactive staff</td><td>Payroll</td><td>🔒 Private repo</td><td><code>+214</code>&nbsp;<code>-79</code></td></tr>
+  <tr><td rowspan="2" align="center"><b>03&nbsp;Nov&nbsp;2026</b></td><td>feat(website): redesign &quot;Quality is our business&quot; products section</td><td>feat(website): add product and products-hero images</td><td>🔒 Private repo</td><td><code>+188</code>&nbsp;<code>-43</code></td></tr>
+  <tr><td>feat(website): single-card booking form with Service Master services …</td><td>feat(website): Dark Motorsport Luxury redesign of the public site; feat(website): add before/after and scroll-wash images (+1 more commit)</td><td>🔒 Private repo</td><td><code>+798</code>&nbsp;<code>-201</code></td></tr>
+  <tr><td rowspan="4" align="center"><b>02&nbsp;Nov&nbsp;2026</b></td><td>feat(payroll): month picker to review and settle past months</td><td>feat(audit-log): filter by period, date range, user, module and search</td><td>🔒 Private repo</td><td><code>+319</code>&nbsp;<code>-28</code></td></tr>
+  <tr><td><a href="https://github.com/ssg-mis/store_frontend/pull/20">feat: Received Items detail view from the dashboard card</a></td><td>fix: send orderedWeight only when it is entered on an indent</td><td><a href="https://github.com/ssg-mis/store_frontend">ssg-mis/store_frontend</a></td><td><code>+746</code>&nbsp;<code>-2</code></td></tr>
+  <tr><td><a href="https://github.com/ssg-mis/hr_frontend/pull/47">feat: Employee Type in joining forms with auto employee code preview</a></td><td>fix: ask for company and type before showing the employee code</td><td><a href="https://github.com/ssg-mis/hr_frontend">ssg-mis/hr_frontend</a></td><td><code>+54</code>&nbsp;<code>-13</code></td></tr>
+  <tr><td>feat: employee code series by employee type (Employee / Helper)</td><td>fix: show employee code only after company and type are selected</td><td>🔒 Private repo</td><td><code>+59</code>&nbsp;<code>-13</code></td></tr>
+</table>
 
 <!-- PR-SECTION:END -->
 
