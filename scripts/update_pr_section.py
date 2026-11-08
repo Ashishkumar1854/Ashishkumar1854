@@ -14,7 +14,9 @@ Environment variables:
   SAMPLE_JSON    path to a saved API response; used instead of calling the API
 """
 import datetime as dt
+import html
 import json
+import urllib.parse
 import os
 import re
 import sys
@@ -62,10 +64,11 @@ def fetch_prs(token, username, since):
 
 
 def clean(text, limit):
-    """Make text safe for one markdown table cell."""
+    """Shorten text to one line and escape it for HTML."""
     text = re.sub(r"<[^>]+>", "", text or "")
-    text = re.sub(r"\s+", " ", text).strip().replace("|", "\\|")
-    return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
+    text = re.sub(r"\s+", " ", text).strip()
+    text = text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
+    return html.escape(text, quote=True)
 
 
 def summary_line(body):
@@ -120,17 +123,45 @@ def describe(pr):
 
 def repo_label(pr, show_names):
     repo = pr["repository"]
-    if repo["isPrivate"] and not show_names:
-        return "🔒 Private repo"
+    name = html.escape(repo["nameWithOwner"])
     if repo["isPrivate"]:
-        return f"🔒 {repo['nameWithOwner']}"
-    return f"[{repo['nameWithOwner']}](https://github.com/{repo['nameWithOwner']})"
+        return f"🔒 {name}" if show_names else "🔒 Private repo"
+    return f'<a href="https://github.com/{name}">{name}</a>'
 
 
 def title_cell(pr):
     title = describe(pr)[0]
     # Links to private PRs give visitors a 404, so only public PRs are linked.
-    return title if pr["repository"]["isPrivate"] else f"[{title}]({pr['url']})"
+    return title if pr["repository"]["isPrivate"] else f'<a href="{html.escape(pr["url"])}">{title}</a>'
+
+
+def nice_date(iso):
+    """'2026-11-06T…' -> '06 Nov 2026' with non-breaking spaces so it stays on one line."""
+    return dt.date.fromisoformat(iso[:10]).strftime("%d %b %Y").replace(" ", "&nbsp;")
+
+
+def changes(pr):
+    return f"<code>+{pr['additions']:,}</code>&nbsp;<code>-{pr['deletions']:,}</code>"
+
+
+def banner(month_name, merged_this_month, merged_year):
+    """Animated typing heading, same style as the banner at the top of the profile."""
+    lines = [
+        "🔀 Merged Pull Requests",
+        f"🚀 {merged_this_month} PRs merged in {month_name}",
+        f"🔥 {merged_year} PRs merged in the last 12 months",
+    ]
+    params = {
+        "font": "JetBrains Mono", "weight": "700", "size": "30", "pause": "1200",
+        "color": "3FB950", "background": "00000000", "center": "true", "vCenter": "true",
+        "width": "800", "height": "60", "lines": ";".join(lines),
+    }
+    url = "https://readme-typing-svg.demolab.com?" + urllib.parse.urlencode(params, quote_via=urllib.parse.quote)
+    return [
+        '<div align="center">',
+        f'  <img src="{html.escape(url)}" alt="Merged Pull Requests" />',
+        "</div>",
+    ]
 
 
 def render(prs, show_names, today):
@@ -139,7 +170,9 @@ def render(prs, show_names, today):
     this_month = [p for p in prs if p["mergedAt"][:10] >= month_start]
     month_name = today.strftime("%B %Y")
 
-    lines = [START, "", "## 🔀 Merged Pull Requests", ""]
+    lines = [START, ""]
+    lines += banner(month_name, len(this_month), len(prs))
+    lines.append("")
     lines.append(
         "> Most of these pull requests are in private client repositories, so the links and code "
         "are not public. This list is updated automatically every day from the GitHub API."
@@ -167,28 +200,40 @@ def render(prs, show_names, today):
             lines.append(f"> {summary}")
         lines.append("")
         lines.append(
-            f"Merged {top['mergedAt'][:10]} · {top['changedFiles']} files · "
+            f"Merged {nice_date(top['mergedAt'])} · {top['changedFiles']} files · "
             f"`+{top['additions']:,}` / `-{top['deletions']:,}`"
         )
         lines.append("")
 
     recent = prs[:TOP_N]
-    if recent:
-        lines.append(f"### 🕒 Last {len(recent)} merged PRs")
-        lines.append("")
-        lines.append("| Merged | Pull request | What it does | Repo | Changes |")
-        lines.append("|---|---|---|---|---|")
-        for p in recent:
-            lines.append(
-                f"| {p['mergedAt'][:10]} | {title_cell(p)} | {describe(p)[1] or '—'} | "
-                f"{repo_label(p, show_names)} | `+{p['additions']:,}` `-{p['deletions']:,}` |"
-            )
-        lines.append("")
-    else:
-        lines.append("_No merged pull requests found yet._")
-        lines.append("")
+    if not recent:
+        lines += ["_No merged pull requests found yet._", "", END]
+        return "\n".join(lines)
 
-    lines.append(END)
+    # HTML table, because markdown tables can't merge cells: PRs merged on the
+    # same day share one date cell (rowspan).
+    lines.append(f"### 🕒 Last {len(recent)} merged PRs")
+    lines.append("")
+    lines.append("<table>")
+    lines.append(
+        "  <tr><th>Merged</th><th>Pull request</th><th>What it does</th>"
+        "<th>Repo</th><th>Changes</th></tr>"
+    )
+    for i, p in enumerate(recent):
+        day = p["mergedAt"][:10]
+        cells = []
+        if i == 0 or recent[i - 1]["mergedAt"][:10] != day:
+            span = sum(1 for q in recent[i:] if q["mergedAt"][:10] == day)
+            cells.append(f'<td rowspan="{span}" align="center"><b>{nice_date(p["mergedAt"])}</b></td>')
+        cells += [
+            f"<td>{title_cell(p)}</td>",
+            f"<td>{describe(p)[1] or '—'}</td>",
+            f"<td>{repo_label(p, show_names)}</td>",
+            f"<td>{changes(p)}</td>",
+        ]
+        lines.append("  <tr>" + "".join(cells) + "</tr>")
+    lines.append("</table>")
+    lines += ["", END]
     return "\n".join(lines)
 
 
