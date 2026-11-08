@@ -30,8 +30,9 @@ query($q: String!, $cursor: String) {
     pageInfo { hasNextPage endCursor }
     nodes {
       ... on PullRequest {
-        title body url number mergedAt additions deletions changedFiles
+        title body url number mergedAt additions deletions changedFiles headRefName
         repository { nameWithOwner isPrivate }
+        commits(first: 20) { nodes { commit { messageHeadline } } }
       }
     }
   }
@@ -79,6 +80,44 @@ def summary_line(body):
     return ""
 
 
+def norm(text):
+    return re.sub(r"[^a-z0-9]", "", (text or "").lower())
+
+
+def commit_headlines(pr):
+    """Commit subjects of the PR, without merge commits or duplicates."""
+    seen, out = set(), []
+    for node in (pr.get("commits") or {}).get("nodes", []):
+        line = (node.get("commit") or {}).get("messageHeadline", "").strip()
+        if not line or line.lower().startswith("merge ") or norm(line) in seen:
+            continue
+        seen.add(norm(line))
+        out.append(line)
+    return out
+
+
+def describe(pr):
+    """Return (title, summary) that say what the PR did.
+
+    GitHub fills the title with the branch name ("Ashish mod") when a PR has
+    several commits, and long titles are cut with "…" and continued in the body.
+    """
+    title, body = pr["title"], pr.get("body") or ""
+    if title.endswith("…") and body.startswith("…"):
+        rest, _, body = body[1:].partition("\n")
+        title = title[:-1] + rest
+    commits = commit_headlines(pr)
+    generic = norm(title) == norm(pr.get("headRefName")) or len(norm(title)) < 12
+    if generic and commits:
+        title, commits = commits[0], commits[1:]
+    summary = summary_line(body)  # already cleaned
+    if not summary and commits:
+        extra = len(commits) - 2
+        more = f" (+{extra} more commit{'s' if extra > 1 else ''})" if extra > 0 else ""
+        summary = clean("; ".join(commits[:2]), 140 - len(more)) + more
+    return clean(title, 90), summary
+
+
 def repo_label(pr, show_names):
     repo = pr["repository"]
     if repo["isPrivate"] and not show_names:
@@ -89,7 +128,7 @@ def repo_label(pr, show_names):
 
 
 def title_cell(pr):
-    title = clean(pr["title"], 90)
+    title = describe(pr)[0]
     # Links to private PRs give visitors a 404, so only public PRs are linked.
     return title if pr["repository"]["isPrivate"] else f"[{title}]({pr['url']})"
 
@@ -116,11 +155,13 @@ def render(prs, show_names, today):
     lines.append("")
 
     if this_month:
-        top = max(this_month, key=lambda p: p["additions"] + p["deletions"])
+        # Prefer PRs that have a real description; fall back to the biggest overall.
+        described = [p for p in this_month if describe(p)[1]] or this_month
+        top = max(described, key=lambda p: p["additions"] + p["deletions"])
         lines.append(f"### ⭐ Top PR of {month_name}")
         lines.append("")
         lines.append(f"**{title_cell(top)}** — {repo_label(top, show_names)}")
-        summary = summary_line(top["body"])
+        summary = describe(top)[1]
         if summary:
             lines.append("")
             lines.append(f"> {summary}")
@@ -139,7 +180,7 @@ def render(prs, show_names, today):
         lines.append("|---|---|---|---|---|")
         for p in recent:
             lines.append(
-                f"| {p['mergedAt'][:10]} | {title_cell(p)} | {summary_line(p['body']) or '—'} | "
+                f"| {p['mergedAt'][:10]} | {title_cell(p)} | {describe(p)[1] or '—'} | "
                 f"{repo_label(p, show_names)} | `+{p['additions']:,}` `-{p['deletions']:,}` |"
             )
         lines.append("")
