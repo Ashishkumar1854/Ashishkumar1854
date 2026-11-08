@@ -293,6 +293,12 @@ Sole full-stack engineer across 4 production systems spanning B2B SaaS, multi-te
 
 ---
 
+<!-- PR-SECTION:START -->
+<!-- This section is filled in automatically by .github/workflows/update-pr-section.yml -->
+<!-- PR-SECTION:END -->
+
+---
+
 ## 📊 GitHub Stats & Analytics
 
 <p align="center">
