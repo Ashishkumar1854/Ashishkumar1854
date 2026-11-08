@@ -294,7 +294,34 @@ Sole full-stack engineer across 4 production systems spanning B2B SaaS, multi-te
 ---
 
 <!-- PR-SECTION:START -->
-<!-- This section is filled in automatically by .github/workflows/update-pr-section.yml -->
+
+## 🔀 Merged Pull Requests
+
+> Most of these pull requests are in private client repositories, so the links and code are not public. This list is updated automatically every day from the GitHub API.
+
+**November 2026:** 13 PRs merged · `+3,345` / `-556` lines · **Last 12 months:** 105 PRs merged
+
+### ⭐ Top PR of November 2026
+
+**Ashish mod** — 🔒 Private repo
+
+Merged 2026-11-03 · 23 files · `+798` / `-201`
+
+### 🕒 Last 10 merged PRs
+
+| Merged | Pull request | What it does | Repo | Changes |
+|---|---|---|---|---|
+| 2026-11-06 | feat(dashboard): Other Expenses card, form and P&L deduction | Records business bills paid outside petty cash (rent, electricity, internet, marketing, professional fees, tax, loan EMI, ...) from the Own… | 🔒 Private repo | `+336` `-13` |
+| 2026-11-04 | feat(dashboard): top-5 Revenue by Service with View all; settings car… | …d spacing | 🔒 Private repo | `+15` `-1` |
+| 2026-11-04 | Ashish mod | — | 🔒 Private repo | `+163` `-38` |
+| 2026-11-04 | feat(payroll): earned-to-date pay, Excel export, and hide inactive staff | Payroll | 🔒 Private repo | `+214` `-79` |
+| 2026-11-03 | Ashish mod | — | 🔒 Private repo | `+188` `-43` |
+| 2026-11-03 | Ashish mod | — | 🔒 Private repo | `+798` `-201` |
+| 2026-11-02 | Ashish mod | — | 🔒 Private repo | `+319` `-28` |
+| 2026-11-02 | [Ashish mod](https://github.com/ssg-mis/store_frontend/pull/20) | — | [ssg-mis/store_frontend](https://github.com/ssg-mis/store_frontend) | `+746` `-2` |
+| 2026-11-02 | [Ashish mode](https://github.com/ssg-mis/hr_frontend/pull/47) | — | [ssg-mis/hr_frontend](https://github.com/ssg-mis/hr_frontend) | `+54` `-13` |
+| 2026-11-02 | Ashish mode | — | 🔒 Private repo | `+59` `-13` |
+
 <!-- PR-SECTION:END -->
 
 ---
