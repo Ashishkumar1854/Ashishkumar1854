@@ -303,7 +303,9 @@ Sole full-stack engineer across 4 production systems spanning B2B SaaS, multi-te
 
 ### ⭐ Top PR of November 2026
 
-**Ashish mod** — 🔒 Private repo
+**feat(website): single-card booking form with Service Master services …** — 🔒 Private repo
+
+> feat(website): Dark Motorsport Luxury redesign of the public site; feat(website): add before/after and scroll-wash images (+1 more commit)
 
 Merged 2026-11-03 · 23 files · `+798` / `-201`
 
@@ -312,15 +314,15 @@ Merged 2026-11-03 · 23 files · `+798` / `-201`
 | Merged | Pull request | What it does | Repo | Changes |
 |---|---|---|---|---|
 | 2026-11-06 | feat(dashboard): Other Expenses card, form and P&L deduction | Records business bills paid outside petty cash (rent, electricity, internet, marketing, professional fees, tax, loan EMI, ...) from the Own… | 🔒 Private repo | `+336` `-13` |
-| 2026-11-04 | feat(dashboard): top-5 Revenue by Service with View all; settings car… | …d spacing | 🔒 Private repo | `+15` `-1` |
-| 2026-11-04 | Ashish mod | — | 🔒 Private repo | `+163` `-38` |
+| 2026-11-04 | feat(dashboard): top-5 Revenue by Service with View all; settings card spacing | Owner Dashboard: Revenue by Service lists the top 5 services by default with a "View all N services" / "Show less" toggle, so the card line… | 🔒 Private repo | `+15` `-1` |
+| 2026-11-04 | feat(payroll): show base salary and payable days in the payroll table | feat(permissions): sensitive-access toggles for sales data and export; Revert "feat(permissions): sensitive-access toggles… (+1 more commit) | 🔒 Private repo | `+163` `-38` |
 | 2026-11-04 | feat(payroll): earned-to-date pay, Excel export, and hide inactive staff | Payroll | 🔒 Private repo | `+214` `-79` |
-| 2026-11-03 | Ashish mod | — | 🔒 Private repo | `+188` `-43` |
-| 2026-11-03 | Ashish mod | — | 🔒 Private repo | `+798` `-201` |
-| 2026-11-02 | Ashish mod | — | 🔒 Private repo | `+319` `-28` |
-| 2026-11-02 | [Ashish mod](https://github.com/ssg-mis/store_frontend/pull/20) | — | [ssg-mis/store_frontend](https://github.com/ssg-mis/store_frontend) | `+746` `-2` |
-| 2026-11-02 | [Ashish mode](https://github.com/ssg-mis/hr_frontend/pull/47) | — | [ssg-mis/hr_frontend](https://github.com/ssg-mis/hr_frontend) | `+54` `-13` |
-| 2026-11-02 | Ashish mode | — | 🔒 Private repo | `+59` `-13` |
+| 2026-11-03 | feat(website): redesign "Quality is our business" products section | feat(website): add product and products-hero images | 🔒 Private repo | `+188` `-43` |
+| 2026-11-03 | feat(website): single-card booking form with Service Master services … | feat(website): Dark Motorsport Luxury redesign of the public site; feat(website): add before/after and scroll-wash images (+1 more commit) | 🔒 Private repo | `+798` `-201` |
+| 2026-11-02 | feat(payroll): month picker to review and settle past months | feat(audit-log): filter by period, date range, user, module and search | 🔒 Private repo | `+319` `-28` |
+| 2026-11-02 | [feat: Received Items detail view from the dashboard card](https://github.com/ssg-mis/store_frontend/pull/20) | fix: send orderedWeight only when it is entered on an indent | [ssg-mis/store_frontend](https://github.com/ssg-mis/store_frontend) | `+746` `-2` |
+| 2026-11-02 | [feat: Employee Type in joining forms with auto employee code preview](https://github.com/ssg-mis/hr_frontend/pull/47) | fix: ask for company and type before showing the employee code | [ssg-mis/hr_frontend](https://github.com/ssg-mis/hr_frontend) | `+54` `-13` |
+| 2026-11-02 | feat: employee code series by employee type (Employee / Helper) | fix: show employee code only after company and type are selected | 🔒 Private repo | `+59` `-13` |
 
 <!-- PR-SECTION:END -->
 
