@@ -296,12 +296,12 @@ Sole full-stack engineer across 4 production systems spanning B2B SaaS, multi-te
 <!-- PR-SECTION:START -->
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains%20Mono&amp;weight=700&amp;size=30&amp;pause=1200&amp;color=3FB950&amp;background=00000000&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=60&amp;lines=%F0%9F%94%80%20Merged%20Pull%20Requests%3B%F0%9F%9A%80%2018%20PRs%20merged%20in%20November%202026%3B%F0%9F%94%A5%20110%20PRs%20merged%20in%20the%20last%2012%20months" alt="Merged Pull Requests" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains%20Mono&amp;weight=700&amp;size=30&amp;pause=1200&amp;color=3FB950&amp;background=00000000&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=60&amp;lines=%F0%9F%94%80%20Merged%20Pull%20Requests%3B%F0%9F%9A%80%2019%20PRs%20merged%20in%20November%202026%3B%F0%9F%94%A5%20111%20PRs%20merged%20in%20the%20last%2012%20months" alt="Merged Pull Requests" />
 </div>
 
 > Most of these pull requests are in private client repositories, so the links and code are not public. This list is updated automatically every day from the GitHub API.
 
-**November 2026:** 18 PRs merged · `+5,909` / `-923` lines · **Last 12 months:** 110 PRs merged
+**November 2026:** 19 PRs merged · `+5,995` / `-931` lines · **Last 12 months:** 111 PRs merged
 
 ### ⭐ Top PR of November 2026
 
@@ -315,6 +315,7 @@ Merged 10&nbsp;Nov&nbsp;2026 · 9 files · `+862` / `-276`
 
 <table>
   <tr><th>Merged</th><th>Pull request</th><th>What it does</th><th>Repo</th><th>Changes</th></tr>
+  <tr><td rowspan="1" align="center"><b>12&nbsp;Nov&nbsp;2026</b></td><td>feat(followup): edit lead details from follow-up modal; block duplicate mobile</td><td>Single pencil on the follow-up details box makes customer name/mobile, source, priority and notes editable inline</td><td>🔒 Private repo</td><td><code>+86</code>&nbsp;<code>-8</code></td></tr>
   <tr><td rowspan="3" align="center"><b>11&nbsp;Nov&nbsp;2026</b></td><td>fix(followup): keep filters after lead update; make next call date optional</td><td>Snapshot and restore follow-up filters across re-render so updated leads stay visible</td><td>🔒 Private repo</td><td><code>+35</code>&nbsp;<code>-10</code></td></tr>
   <tr><td>feat: sequential GRN on completion, PO verification API and richer inventory history</td><td>GRN: generated only when an item is completed (Full receive or qty met), format GRN-YYYYMMDD-00001 from an atomic per-day counter (grn_coun…</td><td>🔒 Private repo</td><td><code>+181</code>&nbsp;<code>-17</code></td></tr>
   <tr><td><a href="https://github.com/ssg-mis/store_frontend/pull/23">feat: firm-wise dashboard, indent history, PO verification page and product details</a></td><td>Dashboard: firm selection (remembered), company banner from Firm Master, all cards and charts scoped to the chosen firm</td><td><a href="https://github.com/ssg-mis/store_frontend">ssg-mis/store_frontend</a></td><td><code>+1,082</code>&nbsp;<code>-13</code></td></tr>
@@ -324,7 +325,6 @@ Merged 10&nbsp;Nov&nbsp;2026 · 9 files · `+862` / `-276`
   <tr><td rowspan="3" align="center"><b>04&nbsp;Nov&nbsp;2026</b></td><td>feat(dashboard): top-5 Revenue by Service with View all; settings card spacing</td><td>Owner Dashboard: Revenue by Service lists the top 5 services by default with a &quot;View all N services&quot; / &quot;Show less&quot; toggle, so the card line…</td><td>🔒 Private repo</td><td><code>+15</code>&nbsp;<code>-1</code></td></tr>
   <tr><td>feat(payroll): show base salary and payable days in the payroll table</td><td>feat(permissions): sensitive-access toggles for sales data and export; Revert &quot;feat(permissions): sensitive-access toggles… (+1 more commit)</td><td>🔒 Private repo</td><td><code>+163</code>&nbsp;<code>-38</code></td></tr>
   <tr><td>feat(payroll): earned-to-date pay, Excel export, and hide inactive staff</td><td>Payroll</td><td>🔒 Private repo</td><td><code>+214</code>&nbsp;<code>-79</code></td></tr>
-  <tr><td rowspan="1" align="center"><b>03&nbsp;Nov&nbsp;2026</b></td><td>feat(website): redesign &quot;Quality is our business&quot; products section</td><td>feat(website): add product and products-hero images</td><td>🔒 Private repo</td><td><code>+188</code>&nbsp;<code>-43</code></td></tr>
 </table>
 
 <!-- PR-SECTION:END -->
