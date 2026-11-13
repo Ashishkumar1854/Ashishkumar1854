@@ -28,7 +28,7 @@
 ## 🧑‍💻 About Me
 
 ```yaml
-🧑 Name: Ashish Kumar
+🧑 Name: Ashish Kumar yadav
 💼 Role: Full Stack Developer |  AI Agenet Developer | SaaS Product builder
 🏢 Experience: 1 year production experience across full-stack engineering roles
 🎓 Education: B.Tech IT — Rungta College of Engineering (Graduated 2026)
