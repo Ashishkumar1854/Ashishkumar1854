@@ -296,25 +296,26 @@ Sole full-stack engineer across 4 production systems spanning B2B SaaS, multi-te
 <!-- PR-SECTION:START -->
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains%20Mono&amp;weight=700&amp;size=30&amp;pause=1200&amp;color=3FB950&amp;background=00000000&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=60&amp;lines=%F0%9F%94%80%20Merged%20Pull%20Requests%3B%F0%9F%9A%80%2019%20PRs%20merged%20in%20November%202026%3B%F0%9F%94%A5%20111%20PRs%20merged%20in%20the%20last%2012%20months" alt="Merged Pull Requests" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains%20Mono&amp;weight=700&amp;size=30&amp;pause=1200&amp;color=3FB950&amp;background=00000000&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=60&amp;lines=%F0%9F%94%80%20Merged%20Pull%20Requests%3B%F0%9F%9A%80%2020%20PRs%20merged%20in%20November%202026%3B%F0%9F%94%A5%20112%20PRs%20merged%20in%20the%20last%2012%20months" alt="Merged Pull Requests" />
 </div>
 
 > Most of these pull requests are in private client repositories, so the links and code are not public. This list is updated automatically every day from the GitHub API.
 
-**November 2026:** 19 PRs merged · `+5,995` / `-931` lines · **Last 12 months:** 111 PRs merged
+**November 2026:** 20 PRs merged · `+7,901` / `-945` lines · **Last 12 months:** 112 PRs merged
 
 ### ⭐ Top PR of November 2026
 
-**<a href="https://github.com/ssg-mis/store_frontend/pull/22">feat: dashboard indent-type cards, contractor loan, PO vendor updates and GRN search</a>** — <a href="https://github.com/ssg-mis/store_frontend">ssg-mis/store_frontend</a>
+**resolve follopup no validation issue** — 🔒 Private repo
 
-> Redesign dashboard with premium metric cards, make them clickable, and add indent-type cards (Store Out, Store Out Return, Loan Out, Loan O…
+> resolve follopup no validation issue
 
-Merged 10&nbsp;Nov&nbsp;2026 · 9 files · `+862` / `-276`
+Merged 14&nbsp;Nov&nbsp;2026 · 4 files · `+1,906` / `-14`
 
 ### 🕒 Last 10 merged PRs
 
 <table>
   <tr><th>Merged</th><th>Pull request</th><th>What it does</th><th>Repo</th><th>Changes</th></tr>
+  <tr><td rowspan="1" align="center"><b>14&nbsp;Nov&nbsp;2026</b></td><td>resolve follopup no validation issue</td><td>resolve follopup no validation issue</td><td>🔒 Private repo</td><td><code>+1,906</code>&nbsp;<code>-14</code></td></tr>
   <tr><td rowspan="1" align="center"><b>12&nbsp;Nov&nbsp;2026</b></td><td>feat(followup): edit lead details from follow-up modal; block duplicate mobile</td><td>Single pencil on the follow-up details box makes customer name/mobile, source, priority and notes editable inline</td><td>🔒 Private repo</td><td><code>+86</code>&nbsp;<code>-8</code></td></tr>
   <tr><td rowspan="3" align="center"><b>11&nbsp;Nov&nbsp;2026</b></td><td>fix(followup): keep filters after lead update; make next call date optional</td><td>Snapshot and restore follow-up filters across re-render so updated leads stay visible</td><td>🔒 Private repo</td><td><code>+35</code>&nbsp;<code>-10</code></td></tr>
   <tr><td>feat: sequential GRN on completion, PO verification API and richer inventory history</td><td>GRN: generated only when an item is completed (Full receive or qty met), format GRN-YYYYMMDD-00001 from an atomic per-day counter (grn_coun…</td><td>🔒 Private repo</td><td><code>+181</code>&nbsp;<code>-17</code></td></tr>
@@ -322,9 +323,8 @@ Merged 10&nbsp;Nov&nbsp;2026 · 9 files · `+862` / `-276`
   <tr><td rowspan="2" align="center"><b>10&nbsp;Nov&nbsp;2026</b></td><td><a href="https://github.com/ssg-mis/store_frontend/pull/22">feat: dashboard indent-type cards, contractor loan, PO vendor updates and GRN search</a></td><td>Redesign dashboard with premium metric cards, make them clickable, and add indent-type cards (Store Out, Store Out Return, Loan Out, Loan O…</td><td><a href="https://github.com/ssg-mis/store_frontend">ssg-mis/store_frontend</a></td><td><code>+862</code>&nbsp;<code>-276</code></td></tr>
   <tr><td>feat: contractor master, contractor loan indent types and PO vendor updates</td><td>Add Contractor master (model, controller, /contractors CRUD routes) and contractorName column on indent</td><td>🔒 Private repo</td><td><code>+404</code>&nbsp;<code>-51</code></td></tr>
   <tr><td rowspan="1" align="center"><b>06&nbsp;Nov&nbsp;2026</b></td><td>feat(dashboard): Other Expenses card, form and P&amp;L deduction</td><td>Records business bills paid outside petty cash (rent, electricity, internet, marketing, professional fees, tax, loan EMI, ...) from the Own…</td><td>🔒 Private repo</td><td><code>+336</code>&nbsp;<code>-13</code></td></tr>
-  <tr><td rowspan="3" align="center"><b>04&nbsp;Nov&nbsp;2026</b></td><td>feat(dashboard): top-5 Revenue by Service with View all; settings card spacing</td><td>Owner Dashboard: Revenue by Service lists the top 5 services by default with a &quot;View all N services&quot; / &quot;Show less&quot; toggle, so the card line…</td><td>🔒 Private repo</td><td><code>+15</code>&nbsp;<code>-1</code></td></tr>
+  <tr><td rowspan="2" align="center"><b>04&nbsp;Nov&nbsp;2026</b></td><td>feat(dashboard): top-5 Revenue by Service with View all; settings card spacing</td><td>Owner Dashboard: Revenue by Service lists the top 5 services by default with a &quot;View all N services&quot; / &quot;Show less&quot; toggle, so the card line…</td><td>🔒 Private repo</td><td><code>+15</code>&nbsp;<code>-1</code></td></tr>
   <tr><td>feat(payroll): show base salary and payable days in the payroll table</td><td>feat(permissions): sensitive-access toggles for sales data and export; Revert &quot;feat(permissions): sensitive-access toggles… (+1 more commit)</td><td>🔒 Private repo</td><td><code>+163</code>&nbsp;<code>-38</code></td></tr>
-  <tr><td>feat(payroll): earned-to-date pay, Excel export, and hide inactive staff</td><td>Payroll</td><td>🔒 Private repo</td><td><code>+214</code>&nbsp;<code>-79</code></td></tr>
 </table>
 
 <!-- PR-SECTION:END -->
