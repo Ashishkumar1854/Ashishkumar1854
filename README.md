@@ -296,12 +296,12 @@ Sole full-stack engineer across 4 production systems spanning B2B SaaS, multi-te
 <!-- PR-SECTION:START -->
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains%20Mono&amp;weight=700&amp;size=30&amp;pause=1200&amp;color=3FB950&amp;background=00000000&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=60&amp;lines=%F0%9F%94%80%20Merged%20Pull%20Requests%3B%F0%9F%9A%80%2033%20PRs%20merged%20in%20November%202026%3B%F0%9F%94%A5%20125%20PRs%20merged%20in%20the%20last%2012%20months" alt="Merged Pull Requests" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains%20Mono&amp;weight=700&amp;size=30&amp;pause=1200&amp;color=3FB950&amp;background=00000000&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=60&amp;lines=%F0%9F%94%80%20Merged%20Pull%20Requests%3B%F0%9F%9A%80%2037%20PRs%20merged%20in%20November%202026%3B%F0%9F%94%A5%20129%20PRs%20merged%20in%20the%20last%2012%20months" alt="Merged Pull Requests" />
 </div>
 
 > Most of these pull requests are in private client repositories, so the links and code are not public. This list is updated automatically every day from the GitHub API.
 
-**November 2026:** 33 PRs merged · `+13,451` / `-2,655` lines · **Last 12 months:** 125 PRs merged
+**November 2026:** 37 PRs merged · `+14,410` / `-2,676` lines · **Last 12 months:** 129 PRs merged
 
 ### ⭐ Top PR of November 2026
 
@@ -315,16 +315,16 @@ Merged 21&nbsp;Nov&nbsp;2026 · 4 files · `+1,265` / `-1,078`
 
 <table>
   <tr><th>Merged</th><th>Pull request</th><th>What it does</th><th>Repo</th><th>Changes</th></tr>
+  <tr><td rowspan="4" align="center"><b>27&nbsp;Nov&nbsp;2026</b></td><td><a href="https://github.com/ssg-mis/hr_frontend/pull/52">Adjustment payroll: carry edited cells into the next month</a></td><td>When a new month&#x27;s adjustment row is created from payroll, keep the cells edited in last month&#x27;s adjustment (basic/allowance rate, UAN/IP,…</td><td><a href="https://github.com/ssg-mis/hr_frontend">ssg-mis/hr_frontend</a></td><td><code>+25</code>&nbsp;<code>-5</code></td></tr>
+  <tr><td>Add scripts to enter Nov 2026 Excel rates into adjustment payroll</td><td>Canteen: limit one QR to 4 scans per day; Add script to enter Leave Data 2026 balances into employee_leave_bala…</td><td>🔒 Private repo</td><td><code>+175</code>&nbsp;<code>-0</code></td></tr>
+  <tr><td>Apply Nov 2026 allowance revision for Power/Oil/Global/Ethanol/Cold e…</td><td>Add one-off scratch scripts for Oct 2026 employee/UAN/IP sync</td><td>🔒 Private repo</td><td><code>+649</code>&nbsp;<code>-0</code></td></tr>
+  <tr><td>feat(work-completion): exclude On Hold time from TAT and delay</td><td>Track hold periods per work item; worked time excludes hold and the fixed deadline moves out by the working time spent on hold. Employee pe…</td><td>🔒 Private repo</td><td><code>+110</code>&nbsp;<code>-16</code></td></tr>
   <tr><td rowspan="2" align="center"><b>25&nbsp;Nov&nbsp;2026</b></td><td><a href="https://github.com/ssg-mis/hr_frontend/pull/51">Add employee code search to leave forms; Admin-only employee picker</a></td><td>Leave Management new-request form now uses the searchable picker (name or code) instead of a name dropdown, Leave Request picker searches b…</td><td><a href="https://github.com/ssg-mis/hr_frontend">ssg-mis/hr_frontend</a></td><td><code>+14</code>&nbsp;<code>-18</code></td></tr>
   <tr><td>Allow Admin to raise leave and OT requests on behalf of other employees</td><td>Only Admin may now submit leave/OT for another employee (HR keeps the Leave Policy &#x27;add leave&#x27; record entry). Requests follow the normal HO…</td><td>🔒 Private repo</td><td><code>+26</code>&nbsp;<code>-9</code></td></tr>
-  <tr><td rowspan="6" align="center"><b>21&nbsp;Nov&nbsp;2026</b></td><td><a href="https://github.com/ssg-mis/store_frontend/pull/25">feat: indent priority, attachment viewer, item ledger, stock-in tab and stage column</a></td><td>Priority field (Normal/Urgent/Very Urgent) on Create Indent, shown in approval, pending PO, all indent and detail pages</td><td><a href="https://github.com/ssg-mis/store_frontend">ssg-mis/store_frontend</a></td><td><code>+707</code>&nbsp;<code>-108</code></td></tr>
+  <tr><td rowspan="4" align="center"><b>21&nbsp;Nov&nbsp;2026</b></td><td><a href="https://github.com/ssg-mis/store_frontend/pull/25">feat: indent priority, attachment viewer, item ledger, stock-in tab and stage column</a></td><td>Priority field (Normal/Urgent/Very Urgent) on Create Indent, shown in approval, pending PO, all indent and detail pages</td><td><a href="https://github.com/ssg-mis/store_frontend">ssg-mis/store_frontend</a></td><td><code>+707</code>&nbsp;<code>-108</code></td></tr>
   <tr><td>feat: indent priority, stock-in list and workflow stage endpoints</td><td>add priority (Normal/Urgent/Very Urgent) to indent with migration</td><td>🔒 Private repo</td><td><code>+141</code>&nbsp;<code>-2</code></td></tr>
   <tr><td><a href="https://github.com/ssg-mis/hr_frontend/pull/50">Show HR-verification-pending joining forms, add clickable Normal Leav…</a></td><td>Fix Employee page crash: move pending joinings hook into Employee com…</td><td><a href="https://github.com/ssg-mis/hr_frontend">ssg-mis/hr_frontend</a></td><td><code>+384</code>&nbsp;<code>-294</code></td></tr>
   <tr><td>Fix 0xxx employee code floor (next 0057) and add onlyCode filter to leave summary</td><td>Fix 0xxx employee code floor (next 0057) and add onlyCode filter to l…</td><td>🔒 Private repo</td><td><code>+9</code>&nbsp;<code>-1</code></td></tr>
-  <tr><td><a href="https://github.com/ssg-mis/hr_frontend/pull/49">Add Leave button + Normal Leave column; employee search picker in leave/OT request modals</a></td><td>Add Leave button + Normal Leave column; employee search picker in lea…</td><td><a href="https://github.com/ssg-mis/hr_frontend">ssg-mis/hr_frontend</a></td><td><code>+1,265</code>&nbsp;<code>-1,078</code></td></tr>
-  <tr><td>Leave: HR/Admin Add Leave (direct approve) and Normal Leave (NL) type with summary column</td><td>Leave: HR/Admin Add Leave (direct approve) and Normal Leave (NL) type…</td><td>🔒 Private repo</td><td><code>+25</code>&nbsp;<code>-13</code></td></tr>
-  <tr><td rowspan="2" align="center"><b>19&nbsp;Nov&nbsp;2026</b></td><td><a href="https://github.com/ssg-mis/store_frontend/pull/24">feat: clickable full-page detail views, stock visibility and receive confirmation</a></td><td>Add full-page detail views for Indent, PO, Vendor and Product (/indent/:no, /po/:no, /vendor/:name, /product/:name)</td><td><a href="https://github.com/ssg-mis/store_frontend">ssg-mis/store_frontend</a></td><td><code>+1,354</code>&nbsp;<code>-111</code></td></tr>
-  <tr><td>feat: detail endpoints for indent, PO, vendor and product views</td><td>Add DetailController with /details/indent/:no, /details/po/:no, /details/vendor, /details/product and batch /details/stock</td><td>🔒 Private repo</td><td><code>+576</code>&nbsp;<code>-4</code></td></tr>
 </table>
 
 <!-- PR-SECTION:END -->
